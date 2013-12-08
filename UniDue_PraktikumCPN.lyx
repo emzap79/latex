@@ -1,0 +1,15394 @@
+#LyX file created by tex2lyx 2.0.6
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\paperfontsize default
+\spacing single
+\use_hyperref 0
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 0
+\use_mathdots 0
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+#
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+LyX
+\end_layout
+
+\end_inset
+
+ 2.0 created this file. For more info see http://www.lyx.org/ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+lyxformat
+\end_layout
+
+\end_inset
+
+ 413 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+document 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+header 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textclass
+\end_layout
+
+\end_inset
+
+ article 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+preamble 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+@ifundefined
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+definecolor
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+usepackage{color}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% This file was converted to LaTeX by Writer2LaTeX ver. 1.0.2
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% see http://writer2latex.sourceforge.net for more info
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+usepackage[noenc]{tipa}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+usepackage{tipx}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+usepackage[geometry,weather,misc,clock]{ifsym}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+usepackage{pifont}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+usepackage{eurosym}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+usepackage{wasysym}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+usepackage{amsfonts}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+@ifundefined
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+definecolor
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+usepackage{color}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+usepackage{array}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+usepackage{hhline}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Page layout (geometry)
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+setlength{
+\backslash
+voffset}{-1in}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+setlength{
+\backslash
+hoffset}{-1in}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+setlength{
+\backslash
+topmargin}{2cm}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+setlength{
+\backslash
+oddsidemargin}{2cm}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+setlength{
+\backslash
+textheight}{24.599998cm}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+setlength{
+\backslash
+textwidth}{16.999cm}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+setlength{
+\backslash
+footskip}{1.099cm}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+setlength{
+\backslash
+headheight}{0cm}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+setlength{
+\backslash
+headsep}{0cm}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Footnote rule
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+setlength{
+\backslash
+skip
+\backslash
+footins}{0.119cm}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\renewcommand{\footnoterule}{\vspace*{-0.018cm}\setlength\leftskip{0pt}\setlength\rightskip{0pt plus 1fil}\noindent\textcolor{black}{\rule{0.25\columnwidth}{0.018cm}}\vspace*{0.101cm}}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Pages styles
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset FormulaMacro
+\newcommand{\ps@Standard}{
+  \renewcommand\@oddhead{}
+  \renewcommand\@evenhead{}
+  \renewcommand\@oddfoot{\sffamily \thepage{}}
+  \renewcommand\@evenfoot{\@oddfoot}
+  \renewcommand\thepage{\arabic{page}}
+}
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\newcommand{\ps@Index}{
+  \renewcommand\@oddhead{}
+  \renewcommand\@evenhead{}
+  \renewcommand\@oddfoot{\textstyleInhaltsverzeichnisFuzeile{\thepage{}}}
+  \renewcommand\@evenfoot{\@oddfoot}
+  \renewcommand\thepage{\arabic{page}}
+}
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\newcommand{\ps@FirstPage}{
+  \renewcommand\@oddhead{}
+  \renewcommand\@evenhead{}
+  \renewcommand\@oddfoot{}
+  \renewcommand\@evenfoot{}
+  \renewcommand\thepage{\arabic{page}}
+}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+
+write.hausarbeit
+\end_layout
+
+\begin_layout Author
+
+Jonas Petong
+\end_layout
+
+\begin_layout Date
+
+17.10.2011
+\end_layout
+
+\begin_layout Standard
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+preamble 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+use
+\end_layout
+
+\end_inset
+
+defaultoptions false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+modules customHeadersFooters 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+modules 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+maintain
+\end_layout
+
+\end_inset
+
+unincludedchildren false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+language{n}
+\end_layout
+
+\end_inset
+
+german 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+language{_}
+\end_layout
+
+\end_inset
+
+package default tf8 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+fontencoding
+\end_layout
+
+\end_inset
+
+ global 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+font
+\end_layout
+
+\end_inset
+
+roman default 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+font
+\end_layout
+
+\end_inset
+
+sans default 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+font
+\end_layout
+
+\end_inset
+
+typewriter default 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+font
+\end_layout
+
+\end_inset
+
+defaultfamily default 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+use
+\end_layout
+
+\end_inset
+
+nontexfonts false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+font
+\end_layout
+
+\end_inset
+
+sc false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+font
+\end_layout
+
+\end_inset
+
+osf false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+font
+\end_layout
+
+\end_inset
+
+sfscale 100 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+font
+\end_layout
+
+\end_inset
+
+ttscale 100
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+graphics
+\end_layout
+
+\end_inset
+
+ default 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+default
+\end_layout
+
+\end_inset
+
+outputformat default 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+output
+\end_layout
+
+\end_inset
+
+sync 0 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+bibtex
+\end_layout
+
+\end_inset
+
+command default 
+\begin_inset Index idx
+status collapsed
+
+\end_inset
+
+command default 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+paperfontsize
+\end_layout
+
+\end_inset
+
+ default 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+spacing
+\end_layout
+
+\end_inset
+
+ single 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+use
+\end_layout
+
+\end_inset
+
+hyperref true 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pdf
+\end_layout
+
+\end_inset
+
+title "Dokument" 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pdf
+\end_layout
+
+\end_inset
+
+author "Jonas Petong" 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pdf
+\end_layout
+
+\end_inset
+
+bookmarks true 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pdf
+\end_layout
+
+\end_inset
+
+bookmarksnumbered false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pdf
+\end_layout
+
+\end_inset
+
+bookmarksopen false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pdf
+\end_layout
+
+\end_inset
+
+bookmarksopenlevel 1 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pdf
+\end_layout
+
+\end_inset
+
+breaklinks false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pdf
+\end_layout
+
+\end_inset
+
+pdfborder false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pdf
+\end_layout
+
+\end_inset
+
+colorlinks true 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pdf
+\end_layout
+
+\end_inset
+
+backref section 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pdf
+\end_layout
+
+\end_inset
+
+pdfusetitle true 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+pdf
+\end_layout
+
+\end_inset
+
+quotedoptions "pdftex,linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=blue,pdfsubject=,pdfkeywords=" 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+papersize
+\end_layout
+
+\end_inset
+
+ a4paper 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+use
+\end_layout
+
+\end_inset
+
+geometry false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+use
+\end_layout
+
+\end_inset
+
+amsmath 2 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+use
+\end_layout
+
+\end_inset
+
+esint 1 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+use
+\end_layout
+
+\end_inset
+
+mhchem 1 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+use
+\end_layout
+
+\end_inset
+
+mathdots 1 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "_"
+
+\end_inset
+
+engine basic 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+use
+\end_layout
+
+\end_inset
+
+bibtopic false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+use
+\end_layout
+
+\end_inset
+
+indices false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+paperorientation
+\end_layout
+
+\end_inset
+
+ portrait 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+suppress
+\end_layout
+
+\end_inset
+
+date false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+use
+\end_layout
+
+\end_inset
+
+refstyle 0 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+
+S
+\end_layout
+
+\end_inset
+
+tichwortverzeichnis 
+\begin_inset Flex Info:shortcut
+status collapsed
+
+\begin_layout Plain Layout
+
+i
+\end_layout
+
+\end_inset
+
+dx 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+color{#}
+\end_layout
+
+\end_inset
+
+008000 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+index 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+secnumdepth
+\end_layout
+
+\end_inset
+
+ 3 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tocdepth
+\end_layout
+
+\end_inset
+
+ 3 
+\end_layout
+
+\begin_layout Paragraph
+
+
+\end_layout
+
+\begin_layout Standard
+
+separation indent 
+\end_layout
+
+\begin_layout Paragraph
+
+
+\end_layout
+
+\begin_layout Standard
+
+indentation default 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+quotes
+\end_layout
+
+\end_inset
+
+language danish 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+papercolumns
+\end_layout
+
+\end_inset
+
+ 1 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+papersides
+\end_layout
+
+\end_inset
+
+ 1 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+paperpagestyle
+\end_layout
+
+\end_inset
+
+ default 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tracking
+\end_layout
+
+\end_inset
+
+changes false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+output
+\end_layout
+
+\end_inset
+
+changes false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+html
+\end_layout
+
+\end_inset
+
+mathoutput 0 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+html
+\end_layout
+
+\end_inset
+
+cssasfile 0 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+html
+\end_layout
+
+\end_inset
+
+bestrict false 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+header
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+body
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Newpage clearpage 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ thispagestyle
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+FirstPage
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Title
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold -- Praktikumsbericht -- 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ layout
+\end_layout
+
+\begin_layout Standard
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ centering 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+size
+\end_layout
+
+\end_inset
+
+ large Praktikum bei der layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ layout
+\end_layout
+
+\begin_layout Standard
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ centering 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+size
+\end_layout
+
+\end_inset
+
+ large
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Cooperativa de la PolicÃ­a Nacional 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+size
+\end_layout
+
+\end_inset
+
+ default
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ layout
+\end_layout
+
+\begin_layout Standard
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ centering 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+size
+\end_layout
+
+\end_inset
+
+ large in Quito, Ecuador 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+size
+\end_layout
+
+\end_inset
+
+ default
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ hspace
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+0.55 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ paperwidth
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ layout
+\end_layout
+
+\begin_layout Standard
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ color
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+black
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Jonas Petong 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+align
+\end_layout
+
+\end_inset
+
+ block 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ hspace
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+0.55 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ paperwidth
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ layout
+\end_layout
+
+\begin_layout Standard
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ color
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+black
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Matr.Nr.: 2224159 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ hspace
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+0.55 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ paperwidth
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ layout
+\end_layout
+
+\begin_layout Standard
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ color
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+black
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+44789 Bochum 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ hspace
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+0.55 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ paperwidth
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ layout
+\end_layout
+
+\begin_layout Standard
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ color
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+black
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Tel.: 0176 â 533 47 208 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ hspace
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+0.55 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ paperwidth
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ layout
+\end_layout
+
+\begin_layout Standard
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ color
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+black
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+E-Mail: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ href
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+mailto:jonas.petong@stud.uni-due.de
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ layout
+\end_layout
+
+\begin_layout Standard
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+jonas.petong@stud.uni-due.de 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ hspace
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+0.55 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ paperwidth
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ layout
+\end_layout
+
+\begin_layout Standard
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ color
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+black
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+BA-Volkswirt, 5. Fachsemester 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Newpage clearpage 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset CommandInset toc LatexCommand tableofcontents
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Newpage newpage 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Section UnternehmensportrÃ¤t 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+align
+\end_layout
+
+\end_inset
+
+ block Die Kooperation 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes eld 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Cooperativa de Ahorro y CrÃ©dito PolicÃ­a Nacional Ltda. (CPN) 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes erd 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+wurde am 26. Juni 1976 von 35 Polizeimitgliedern auf der 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes eld 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Plaza de Quito 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes erd 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+ins Leben gerufen. Grundgedanke des Zusammenschlusses war es, Mitarbeitern der Polizei Kredite und Darlehen zu gÃ¼nstigen Konditionen zu ermÃ¶glichen, um so ihre Kollegen zu unterstÃ¼tzen. Heute befindet sich das HauptgebÃ¤ude im 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Edificio Matriz 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+auf der Avenida 10 de Agosto. Das GebÃ¤ude erstreckt sich Ã¼ber sieben Stockwerke und bietet Raum fÃ¼r 239 Mitarbeiter. Seit dem Jahr 2002 gibt es im besonderen einige Faktoren, die zu einem bestÃ¤ndigen Wachstum der CPN beitrugen: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Enumerate
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Personal: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default Seit ihrem Beginn im Jahr 1976 hat sich der Personalstand mehr als verzwanzigfac ht. Heute werden Mitarbeiter aus allen Bereichen des betriebs- sowie volkswirtschaf tlichen Bereichen eingesetzt um die CPN in ihrer Arbeit zu unterstÃ¼tzen. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Enumerate
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Technische AusrÃ¼stung und Infrastruktur: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default Unter dem Stichwort 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Technik 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+wird die Verbesserung der Kommunikation und Interaktion zwischen den Mitglieder n und Mitarbeitern der Cooperativa verstanden. Der wichtigste aktueller Bestandteil neuer technischer Weiterentwicklung ist dabei die Einrichtung von Geldautomaten und die Implementierung des Internet Banking. Neben dem Online-Banking soll dies, in einer spÃ¤teren Entwicklungsstufe der Software, dazu dienen, WÃ¼nsche und Anregungen der Mitglieder bezÃ¼glich der angebotenen Leistungen und Produkte, zeitnah zu beantworten. Hierbei wird besonderer Schwerpunkt gelegt auf die eindeutige Identifizierung der Nutzer mittels Fingerabdruck, um etwaige Fehler zu umgehen und die Sicherheit der Geldtransfers zu optimieren. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Enumerate
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Service: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default Neben der Ausarbeitung des Online-Bankings ist die CPN bestrebt etwaige Unklarheiten in der Auseinandersetzung mit dem Mitglied zu besprechen. Dazu gehÃ¶ren zum einen telefonische Ansprechstellen, zum anderen die MÃ¶glichkei t des Vier-Augen-GesprÃ¤chs welches nach Absprache realisiert werden kann. Bei einem persÃ¶nlichen Termin kÃ¶nnen die Anliegen des Mitglieds besprochen, und auf Fragen bezÃ¼glich der von der CPN angebotenen Leistungen eingegangen werden. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Benannte Schwerpunkte haben zu einem stetigen Wachstum der CPN in den letzten 9 Jahren gefÃ¼hrt, der sich in der in der Einrichtung zahlreicher Niederlassunge n im ganzen Land widerspiegelt. DarÃ¼ber hinaus wurde ein Produktkatalog mit den Leistungen erstellt, der den Mitgliedern eine Ãbersicht Ã¼ber die angebotenen Leistungen bietet. Mit mehr als 48.000 Mitgliedern ist die 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Cooperativa de la PolicÃ­a Nacional 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+die grÃ¶Ãte Bank ihrer Art in Ecuador. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Section FormalitÃ¤ten 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsection Beantragung eines Kontos 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard FÃ¼r die Einrichtung eines neuen Kontos muss der Interessent sich in eine der GeschÃ¤ftsstellen der CPN begeben, zusammen mit den notwendigen Unterlagen. Mitgebracht werden sollten eine Kopie des Personalausweises, eines Beglaubigung sschreibens, Einer Fotografie im Personalausweisformat und 25 Dollar Anfangsguth aben. Diese kÃ¶nnen auch mit der ersten monatlichen Ãberweisung eingezahlt werden. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsection Kreditantragstellung 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Um einen Kredit von der CPN zu erhalten muss der Antragsteller auf der Webseite der 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+shape
+\end_layout
+
+\end_inset
+
+ slanted Cooperativa de la PolicÃ­a Nacional 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+shape
+\end_layout
+
+\end_inset
+
+ default ein elektr. Formblatt ausfÃ¼llen. Seine Anfrage wird auf elektr. Wege bearbeitet und der Antragsteller wird per EMail Ã¼ber das Datum sowie den Ort der Einzahlungen informiert. Jeden Monat behÃ¤lt die CPN einen Teil der Tilgung des Kredites fÃ¼r sich ein. Diese Summe betrÃ¤gt 12 
+\begin_inset Formula $ und gliedert sich wie folgt in drei Teile:
+_layout
+
+\begin{}_layout Itemize
+7,40\end{} werden fÃ¼r das Sparbuch verwendet, das dem Kreditnehmer als Grundlage
+ fÃ¼r seinen Kredit dient.
+ 2$
+\end_inset
+
+ gehen auf ein weiteres Konto, von welchem der Kreditnehmer jederzeit Geld abheben kann. 2,60
+\begin_inset Formula $ werden fÃ¼r eine Gesundheits- und Todesversicherung verwendet.
+ Der Mindestbeitrag fÃ¼r den Fond betrÃ¤gt 300$
+\end_inset
+
+. Er garantiert allen Mitgliedern ein Anrecht auf Hilfeleistungen im Krankheits- oder Todesfall. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsubsection Konditionen 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Die Unterhaltung eines Kontos ist fÃ¼r alle Mitglieder der Polizei gratis. Die Zinsen der von der CPN angebotenen Kredite sind um ein vielfaches niedriger als bei anderen Banken oder Kreditinstituten. FÃ¼r den 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+CrÃ©dito Ordinario 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+und den 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+CrÃ©dito Emergente 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+betragen die Zinsen 12,94
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+ Ein vergleichbarer Kredit bei einer privaten Bank in Ecuador ist nur zu einem Zinssatz von 15,20
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% zu erhalten.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Foot status collapsed
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout BGR NET (2011), 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+shape
+\end_layout
+
+\end_inset
+
+ italic BGR CrÃ©ditos 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+shape
+\end_layout
+
+\end_inset
+
+ default , Webseite: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ href 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ layout
+\end_layout
+
+\begin_layout Standard
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+http://www.bgr.com.ec/portal/web/guest/bgr-consumo1 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+www.bgr.com.ec
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+, zugegriffen am 23. Oktober 2011, 15:09 MEZ. layout
+\end_layout
+
+\begin_layout Standard
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Die Zinsen, die auf ein Sparkonto der CPN gewÃ¤hrt werden liegen zwischen 7 und 10 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+ Ausschlaggebend fÃ¼r den Prozentsatz ist die HÃ¶he und festgelegte Laufzeit des Kontos. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsubsection BÃ¼rgschaft 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Zur Beantragung eines Kredits muss der Debitor einen BÃ¼rgen aufbringen, der fÃ¼r die RÃ¼ckzahlung des aufgenommenen Kredits bÃ¼rgt. Die Voraussetzungen, damit eine Person als BÃ¼rge eingesetzt werden darf ist auch davon abhÃ¤ngig, wieviele Jahre der Kreditnehmer fÃ¼r die Polizei gedient hat: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Hat der Antragsteller weniger als 10 Jahre Dienst geleistet, so braucht er einen BÃ¼rgen, der mindestens 10 Jahre bei der Polizei gedient hat oder nachweislich pensioniert ist. Findet er keine Person, die eine der beiden Bedingungen erfÃ¼llt, so kÃ¶nnen auch zwei Kollegen als BÃ¼rgen auftreten, die beide mehr als drei Jahre bei der 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+shape
+\end_layout
+
+\end_inset
+
+ italic PolicÃ­a Nacional 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+shape
+\end_layout
+
+\end_inset
+
+ default gedient haben. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Hat der Antragsteller mehr als zehn Jahre fÃ¼r die Polizei gedient, braucht er einen BÃ¼rgen, der mehr als fÃ¼nf Jahre bei der Polizei gedient hat oder nachweislich pensioniert ist. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Hat er mehr als 25 Jahre fÃ¼r die Polizei gearbeitet, so bedarf es gar keinen BÃ¼rgen. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Newpage newpage 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Section
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Auflistung angebotener Leistungen 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Zwischen den von der CPN angebotenen Krediten gibt es Unterschiede, sowohl in ihrer HÃ¶he, als auch in den Voraussetzungen, die zur Beantragung des jeweiligen Kredits erfÃ¼llt sein mÃ¼ssen. Im Folgenden sollen die Wichtigsten aufgefÃ¼hrt werden. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsection Hypothekendarlehen ( 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+CrÃ©dito Hipotecario 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+) 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Wrap figure lines 0 placement o overhang 0colwidth "50col
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%"
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Caption
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout Hypothekenkredit 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Graphics filename hipotecario.jpg
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Zur 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Beantragung eines Hypothekendarlehens 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default ist eine Kopie des Personalausweises ( 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Copia de la cÃ©dula de ciudadana 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+) sowie eine Bescheinigung Ã¼ber die Wahlberechtigung erforderlich. DarÃ¼berhinaus muss ein 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Orden de AvalÃºo 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+gestellt werden, vergleichbar mit der deutschen SCHUFA-Auskunft. AuÃerdem muss der Antragsteller Bescheinigungen Ã¼ber die letzten BankauszÃ¼ge sowie seine Verdienste und eine Liste der Strom-, Wasser- und Gasabrechnungen aufzeigen.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default Von Seiten des Ehepartners 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default des Antragstellers oder der Antragstellerin muss gleichermaÃen eine Bescheinigun g Ã¼ber die Wahlberechtigung vorliegen. Auch mÃ¼ssen Zeugnisse Ã¼ber die letzten KontoaktivitÃ¤ten der Ehegattin oder des Ehegatten vorliegen.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard KreditantrÃ¤ge kÃ¶nnen gestellt werden fÃ¼r folgende Angelegenheiten: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Kauf einer neuen Immobilie 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Kauf eines GrundstÃ¼cks oder einer gebrauchten Immobilie. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Neubau eines Hauses 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Erweiterung des Eigenheims 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Bauabschluss 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Im Falle des Neubaus, eines Erweiterungsbaus oder bei Bauabschluss des Eigenheim s muss der Kreditnehmer innerhalb von drei Monaten eine Bescheinigung Ã¼ber die Nutzung der entsprechenden Immobilie abgeben. Wird dem Anliegen des Antragstellers stattgegeben, so erhÃ¤lt er einen Hypotheke nkredit mit einer Laufzeit von 15 Jahren. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsection
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Allgemeiner Kredit ( 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Credito Ordinario 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+) 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Der 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Credito Ordinario 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+ist befristet auf 48 Monate und kann von allen Mitgliedern der CPN beantragt werden. Der hÃ¶chste zu beantragende Betrag betrÃ¤gt 8.000 Dollar. Der Credito Ordinario wird frÃ¼hestens 48 Stunden nach Einreichen aller, im Folgenden benannten, Bedingungen geprÃ¼ft und akkreditiert. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Zu den 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Bedingungen 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default des Allgemeinen Kredites gehÃ¶ren: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize RegelmÃ¤Ãiger Besuch der Internetseite 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset ERT status collapsed
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+backslash
+\end_layout
+
+\end_inset
+
+ href
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+http://www.cooperando.fin.ec
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+www.cooperando.fin.ec
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+zu Anfang jeden Monats. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Kopie des Personalausweises und einer Beglaubigungsbescheinigung, sowohl des Kreditnehmers als auch des BÃ¼rgen. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Bescheinigung Ã¼ber die Wahlberechtigung. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Foot status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout In Ecuador muss jede volljÃ¤hrige Person Ã¼ber 18 Jahre eine Wahlberechtigung beantragen. Die Teilnahme an Nationalen Parlamentswahlen ist in Ecuador gesetzlich vorgeschrieben und Pflicht. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize BÃ¼rgschaft eines rechtmÃ¤Ãig befÃ¤higten BÃ¼rgen. RechtmÃ¤Ãige BÃ¼rgen sind alle volljÃ¤hrigen Personen, welche ein Einkommen von wenigstens 400 
+\begin_inset Formula $ im Monat nachweisen kÃ¶nnen:
+_layout
+
+\begin{}_deeper
+\begin{}_layout Itemize
+DienstÃ¤ltere Mitglieder, welche 18 Jahre und mehr bei der 
+\begin{}_inset Quotes ald
+\end{}_inset
+
+PolicÃ­a Nacional
+\begin{}_inset Quotes ard
+\end{}_inset
+
+ gearbeitet haben, mÃ¼ssen keinen BÃ¼rgen vorbringen, um einen Kredit zu beantrage
+n.
+\end{}_layout
+
+\begin{}_layout Itemize
+Polizisten im inneren Dienst, deren Einkommen mehr als \end{} 400 Dollar betrÃ¤gt
+ brauchen ebenfalls keinen BÃ¼rgen zur Beantragung des Kredits.
+\end{}_layout
+
+_deeper
+\begin{}_layout Standard
+Die 
+\series bold
+Vorteile fÃ¼r Kreditnehmer
+\series default
+ eines 
+\begin{}_inset Quotes ald
+\end{}_inset
+
+CrÃ©dito Ordinarios
+\begin{}_inset Quotes ard
+\end{}_inset
+
+ sind, unter anderem gÃ¼nstigere Kreditkonditionen im Vergleich zum herkÃ¶mmlichen
+ Bankkredit; Gutschrift des Darlehens auf das Sparkonto der 
+\begin{}_inset Quotes ald
+\end{}_inset
+
+Cooperativa
+\begin{}_inset Quotes ard
+\end{}_inset
+
+; Versicherung gegen Wertverlust; MÃ¶glichkeit der Online-Einzahlung der
+ fÃ¤lligen Raten Ã¼ber das Internet; Zeitersparnis wegen Wegfall unnÃ¶tigen
+ bÃ¼rokratischen Aufwands und Ã¼berflÃ¼ssiger BankengÃ¤nge; Erneuerung des Kredits
+ nach 80 Monaten.
+\end{}_layout
+
+\begin{}_layout Subsection
+Mikrokredit (
+\begin{}_inset Quotes ald
+\end{}_inset
+
+MicrocrÃ©dito
+\begin{}_inset Quotes ard
+\end{}_inset
+
+)
+\end{}_layout
+
+\begin{}_layout Standard
+Mikrokredite sind Darlehen oder Kredite, die an Menschen vergeben werden,
+ welche, durch Ihre Ã¶konomische Situation und ihr niedriges Einkommensniveau
+ keinen Kredit bei einer traditionellen Bank erhalten wÃ¼rden.
+ Mikrokredite ermÃ¶glichen vor allem in EntwicklungslÃ¤ndern, dass Personen
+ ohne die benÃ¶tigte finanzielle Grundausstattung in Arbeitsprojekte auf
+ ihre eigene Rechnung investieren, und so ein kleines oder mittleres GeschÃ¤ft
+ aufziehen kÃ¶nnen.
+\end{}_layout
+
+\begin{}_layout Subsubsection
+Antragstellung
+\end{}_layout
+
+\begin{}_layout Standard
+Die CPN vergibt Mikrokredite mit einer Laufzeit von bis zu 48 Monaten.
+ AbhÃ¤ngig von der Art und des Umfangs der Unternehmung kann der Antragsteller
+ bis zu 20.000 Dollar fÃ¼r sein GeschÃ¤ftsvorhaben erhalten.
+ Es gibt die MÃ¶glichkeiten a) einen einfachen Mikrokredit von 400 bis 10.000\end{}
+ aufzunehmen oder b) unter Aufnahme einer Hypothek, von 10.001 bis 20.000$
+\end_inset
+
+. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsubsection Anforderungen 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Es bedarf, neben der Mitgliedschaft in der CPN, weitere Voraussetzungen, um einen Mikrokredit zu erhalten. Der Antragsteller muss bereits eine geschÃ¤ftliche TÃ¤tigkeit verfolgen oder Inhaber eines unternehmerischen Gewerbes sein. Seine wirtsch. AktivitÃ¤t muss er mit einem Dokument, dem sogenannten 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+RUC 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+, oder anderen Unterlagen nachweisen. Desweiteren ist die Lohnabrechnung der letzten drei Monate gefordert. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsection Termingeld ( 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Deposito a Plazo Fijo 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+) 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Neben Hypothekendarlehen, Allgemeinen Krediten und Mikrokrediten kann bei der CPN Termingeld (Termineinlagen oder Termindepositen) angelegt werden. Termingelder sind kurz- bis mittelfristige Geldanlagen bei Kreditinstituten, bei denen die Laufzeit oder KÃ¼ndigungsfrist mindestens einen Monat betrÃ¤gt.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Quote 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Bei Termineinlagen verzichten die Einleger fÃ¼r eine bestimmte Zeit auf ihr VerfÃ¼gungsrecht, um einen hÃ¶heren Zins als bei Sichteinlagen zu erhalten. Der Zinssatz hÃ¤ngt von der HÃ¶he der Einlage und von der vereinbarten Laufzeit bzw. KÃ¼ndigungsfrist ab. Kunden legen solche GeldbetrÃ¤ge als Termineinlagen an, die fÃ¼r grÃ¶Ãere Zahlungsverpflichtungen (z. B. Steuerzahlungen) zu bestimmten Terminen bereitstehen mÃ¼ssen, fÃ¼r die kurzfristi g keine Verwendung besteht oder fÃ¼r die gÃ¼nstigere AnlagemÃ¶glichkeiten an der BÃ¶rse abgewartet werden sollen. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Foot status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout Vgl.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Pollert, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default Achim, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+shape
+\end_layout
+
+\end_inset
+
+ italic Duden-Wirtschaft 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+shape
+\end_layout
+
+\end_inset
+
+ default , Mannheim 2010. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Der auf dem Konto angelegte Betrag kann nicht abgehoben werden, bis die vertraglich abgesicherte Frist der monatlichen Verzinsung auf dem Sparbuch eingegangen ist oder nach Ende der Periode, nach welcher der Kreditvertrag abgelaufen ist. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Paragraph Eigenschaften 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Im nebenstehenden Schaubild ist eine Ãbersicht Ã¼ber die zu erhaltenden Leistunge n, abhÃ¤ngig von der Laufdauer der Termineinlage, aufgefÃ¼hrt. In der linken Spalte ist die Laufdauer der Termineinlage aufgefÃ¼hrt, in der Mitte der einzuzahlende Betrag und rechts die zu erwartende Rendite. FÃ¼r eine Termineinlage von 190 Tagen entspricht die Rendite 9
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% des angelegten
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+ Kapitals. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Wrap figure lines 0 placement r overhang 0in width "60col
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%"
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Caption
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout Tabelle - 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Deposito a Plazo Fijo 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Graphics filename tablaPlazoFijio.jpg scale 55
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset CommandInset href LatexCommand href name "www.cooperando.fin.ec/demo/index.php?option=comcontent&view" target "http://www.cooperando.fin.ec/demo/index.php?option=comcontent&view=article&id=68&Itemid=71"
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Paragraph Gewinn / Vorteile 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Handhabung der besten Raten auf dem Markt und Sicherheit auf das Guthaben, zusÃ¤tzlich zum Saldo, und Verzinseszinsung. Dies gilt nur, wenn die gutgeschriebenen Zinsen auf das Sparkonto, nicht monatlich vom Kontoinhaber abgehoben werden. AuÃerdem nimmt der Kontoinhaber automatisch, mit jeder Einzahlung auf sein Konto, an Werbeaktionen teil mit der MÃ¶glichkeit auf Gewinn hochwertiger Preise. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Section Verlauf des Praktikums 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsection Kontaktaufnahme 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Vor Praktikumsbeginn fand ein Kontakt mit David Hurtado statt, der mich wÃ¤hrend des gesamten Praktikums in Ecuador betreute und mein Vorgesetzter war. Herrn Hurtado habe ich wÃ¤hrend eines Aufenthalts in Ecuador kennengelernt und stehe mit ihm in regelmÃ¤Ãigem Kontakt. Er ist Chef der Marketingabteilung der CPN und koordiniert alle Arbeiten, die in Zusammenhang mit der AuÃendarstellung der CPN stehen. Auf Nachfrage zeigte er sich sehr offen gegenÃ¼ber meiner Anfrage, ein Praktikum in seiner Abteilung zu leisten. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsection Aufgaben, Projekte und TÃ¤tigkeiten als Praktikant 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Als Praktikant des Chefs der Marketingabteilung bereitete ich Termine inhaltlich vor und nahm eingehende TelefongesprÃ¤che entgegen. AuÃerdem arbeitete ich Herrn Hurtado zu und half ihm bei der Erstellung eines Marketingprospektes der dazu diente, Ã¼ber die Arbeit der CPN zu informier en und die verschiedenen Leistungen der CPN in Form eines Flyers in Ã¼bersichtlic her Form darzustellen. Desweiteren wurde mir die DurchfÃ¼hrung administrativer und organisatorischer Aufgaben wie der Terminplanung David Hurtados aufgetragen.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsection Abteilungen 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard FÃ¼r mein Praktikum bei der 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+CPN 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+war es mir besonders wichtig, einen mÃ¶glichst umfassenden Einblick der Arbeit einer Polizeikooperative sowie der Arbeit innerhalb einer einzelnen Abteilung im speziellen zu erhalten.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsubsection Marketingabteilung 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Die Aufgabenfelder der Marketingabteilung bestehen in der eigenstÃ¤ndigen Planung und Umsetzung von Marketingkonzepten. Im Besonderen geht es um die Bereiche 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Erstellung/Koordination von Anzeigen und ProduktbroschÃ¼ren 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Abstimmung von PresseaktivitÃ¤ten mit der PR-Agentur und intern 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Ãberwachen und Weiterentwickeln der Corporate Identity 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize AbteilungsÃ¼bergreifende Schnittstelle fÃ¼r alle KommunikationsaktivitÃ¤ten (Online sowie Print) 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Externe und Interne Veranstaltungsplanung und -durchfÃ¼hrung 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Erstellung von Marktanalysen, Wettbewerbsbeobachtung und Dokumentation 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Betreuung der Kooperativenwebsite 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Itemize Aufbereitung von Wettbewerbsinformationen 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Konkret ging es wÃ¤hrend meines Praktikums um die Neustrukturierung der CPN-Inter netprÃ¤senz. WÃ¤hrend meiner Anwesenheit wurde das komplette Frontend der Webseite ( 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset CommandInset href LatexCommand href name "http://www.cooperando.fin.ec" target "http://www.cooperando.fin.ec/demo/"
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+) rundum erneuert und auf Adobe-Flash 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset script superscript
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout (R) 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+umgestellt. Dadurch soll dem Besucher eine schnellere Orientierung, bei gleichzeitiger Verbesserung der optischen PrÃ¤senz, geboten werden. Mein Aufgabenbereich bezieht sich auf das Formatieren der bereitgestellten Bilder fÃ¼r die Internetseite. Sie sollen auf das richtige Format gebracht werden, um so die transparenten Bereiche darstellen zu kÃ¶nnen. DarÃ¼berhinaus gehÃ¶rt zu meinem Aufgabenbereich bei Herrn Hurtado die Terminverw altung, Aktenablage und die Teilnahme an verschiedenen GesprÃ¤chen und Sitzungen. In einer Sitzung, am 24. August, geht es um den direkten Kontakt zu den CPN-Mitgliedern Ã¼ber das Internet. Eine Mitarbeiterin bringt die Idee hervor kÃ¼nftig weniger Flyer drucken zu lassen, dafÃ¼r verstÃ¤rkt auf die Internetseite Ã¼ber Email-Newsletter und im Kontakt mit Bankmitgliedern aufmerksam zu machen. Dieser Vorschlag findet allgemeine Anerkennung.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard In folgendem Diagramm wird die Struktur der CPN aufgezeigt. Das Originaldiagramm ist im Anhang dieses Praktikumsberichtes zu finden. FÃ¼r diesen Praktikumsbericht habe ich die einzelnen Abteilungen Ã¼bersetzt und die Grafik entsprechend angepasst. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Float figure placement H wide false sideways false status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Caption
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout Organigramm 'CPN' 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Graphics filename organigramm.png scale 50
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset CommandInset href LatexCommand href name "http://www.cooperando.fin.ec/demo/index.php?option=comcontent&view=article&id=56&Itemid=56" target "http://www.cooperando.fin.ec/demo/index.php?option=comcontent&view=article&id=56&Itemid=56"
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Das Arbeitsklima wÃ¤hrend meines Praktikums ist sehr angenehm. Herr Hurtado betreut mich sehr gut. Zu keinem Zeitpunkt meines Praktikums bekomme ich das GefÃ¼hl als Praktikant weniger geschÃ¤tzt zu werden, als andere Kollegen und Kolleginnen. Ich habe das GefÃ¼hl von den ArbeitsablÃ¤ufen der CPN einen umfassenden Eindruck zu erhalten. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsubsection Weitere Abteilungen der CPN 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Neben der Marketingabteilung gibt es weitere Abteilungen welche diversen Aufgabenbereichen zugeteilt sind. Neben der Marketingabteilung sind des weiteren die Abteilungen 'Human Ressource s', 'Finanzen' sowie die 'Systemadministration' zu finden. Sie alle sind Unterabteilungen des GeschÃ¤ftsbereichs 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Strategische Operationen 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+. Die Hauptaufgabe des 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Rechnungswesens 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default der Kooperative besteht darin, das gesamte GeschÃ¤ftsgeschehen und insbesondere die Koordination der Finanzierungsprogramme zu erfassen, zu Ã¼berwachen und auszuwerten.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Allgemein hat das Rechnungswesen die Aufgabe, das gesamte Unternehmensgeschehen zahlenmÃ¤Ãig zu erfassen, zu Ã¼berwachen und auszuwerten. Im besonderen unterscheidet man: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Enumerate
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Dokumentationsaufgabe: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default Aufzeichnung sÃ¤mtlicher GeschÃ¤ftsfÃ¤lle anhand von Belegen: zeitnah, zeitrichtig , geordnet, lÃ¼ckenlos, wahr und fortlaufend.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Enumerate
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Rechenschaftslegungs- und Informationsaufgabe: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default Periodenweise (jÃ¤hrliche) Berichterstattung an Unternehmenseigner, BehÃ¶rden, GlÃ¤ubiger (Kreditgeber) usw. Ã¼ber VermÃ¶gens- und Ertragslage (Jahresabschluss).
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Enumerate
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Kontrollaufgabe: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default Aussagen Ã¼ber ProduktivitÃ¤t, Wirtschaftlichkeit u. RentabilitÃ¤t des Unternehmens, seiner Betriebe und anderen Teilsysteme (z.B. Kostenstellen).
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Enumerate
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Dispositionsaufgabe: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default Bereitstellung von Zahlenmaterial als Grundlage fÃ¼r unternehmerische Entscheidu ngen, z.B. Ã¼ber Investitionen, MÃ¤rkte, Produktsortimente oder Absatzpolitiken.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Foot status open
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout vgl.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Zingel 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default , Harry: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+shape
+\end_layout
+
+\end_inset
+
+ italic Grundlagen der kaufmÃ¤nnischen Rechnungslegung 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+shape
+\end_layout
+
+\end_inset
+
+ default , 2001-09, S. 3. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Die 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Finanzabteilung 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default trifft Investitions- und Finanzierungsentscheidungen und sorgt dafÃ¼r, die ZahlungsfÃ¤higkeit der Kooperative zu jedem Zeitpunkt gesichert ist. Im Bereich Steuern wird versucht, die Steuerbelastung der Kooperative zu optimieren, wobei der Handlungsspielraum in gewissem MaÃe durch die national gÃ¼ltigen Steuergesetze und staatliche Vorschriften eingeschrÃ¤nkt ist. Die Aufgabe des 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold Controlling 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default besteht einerseits in der laufenden Kontrolle des Arbeitsablaufs und anderersei ts in der am Periodenende abschlieÃenden Kontrolle. Das Controlling arbeitet zudem zukunftsorientiert und gibt an Hand der ausgewerteten Daten Handlungsempfehlungen ab und stellt die optimale Informatio nsversorgung aller sicher. Dies ist nÃ¶tig zum Treffen von Entscheidungen. Eine genaue Auflistung aller Abteilungen finden Sie im unten aufgefÃ¼hrten Organigramm. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Subsubsection Buchhaltung 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard WÃ¤hrend ich mein Praktikum bei Ing. David Hurtado in der Marketingabteilung ableistete, hatte ich die Gelegenheit, mir eine weitere Abteilungen der CPN anzusehen und fÃ¼r einen Tag dort zu arbeiten. Dieser 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Ausflug 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+ermÃ¶glichte mir, die Arbeit der Buchhaltung genauer kennenzulernen und einen tieferen Einblick in die Strukturen der CPN zu erhalten. Die Buchhaltung ist die Organisationseinheit der Kooperative, die die BuchfÃ¼hru ng erstellt.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Quotation 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Die Buchhaltung dient primÃ¤r der Dokumentation der GeschÃ¤ftsvorfÃ¤lle auf der Basis von Belegen. Ihr kommt eine zentrale Stellung im Rahmen des gesamten Unternehmens zu, denn sie liefert die gesetzlich geforderten Informationen fÃ¼r das externe und das interne Rechnungswesen. Im gesetzlich vorgeschriebenen Jahresabschluss [wird] Ã¼ber die HÃ¶he des VermÃ¶gens und des Kapitals sowie des Erfolgs des Unternehmens Rechenschaft abgelegt 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Foot status collapsed
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Plain Layout vgl.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ bold SchÃ¼ler 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+series
+\end_layout
+
+\end_inset
+
+ default , Mirja: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+shape
+\end_layout
+
+\end_inset
+
+ italic EinfÃ¼hrung in das betriebliche Rechnungswesen, BuchfÃ¼hrung fÃ¼r Industrie- und Handelsbetriebe 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+shape
+\end_layout
+
+\end_inset
+
+ default , Hamburg 2005, S. 1. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard WÃ¤hrend meines Besuchs in der Buchhaltung durfte ich den Mitarbeitern bei der Bilanzierung des aktuellen GeschÃ¤ftsjahres Ã¼ber die Schulter sehen. Dabei ging es um die Auflistung der von der CPN im aktuellen GeschÃ¤ftsjahr erbrachten GeschÃ¤ftsdienstleistungen. Desweiteren wurde ich mit der Ablage einiger Unterlagen beauftragt.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Newpage newpage 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Section Bewertung des Praktikums 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Durch das oben beschriebene Praktikum in Ecuador konnte ich die wÃ¤hrend meines Studiums erlernten Wirtschaftskenntnisse anwenden und vertiefen. Dieser Aspekt war mir bei dem Verlauf des Praktikums von groÃer Bedeutung. Doch auch kulturell habe ich viele Erfahrungen dadurch gesammelt. Das Praktikum hat fÃ¼r mein Studium insofern einen hohen Stellenwert, da ich einen Einblick in die Arbeit im Marketingbereich erhalten habe. Insbesondere die finanzwirtschaftliche TÃ¤tigkeit der Kooperative mit der Einbindung im Banken- und Mikrokreditsektor waren fÃ¼r mein weiteres VerstÃ¤ndnis wirtschaftlicher ZusammenhÃ¤nge groÃem Mehrwert. Von groÃem Vorteil war es, die Kultur eines fremden Landes direkt kennen zu lernen und eigenstÃ¤ndig Projekte zu fÃ¼hren und zu entwickeln. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard BezÃ¼glich der BÃ¼rotÃ¤tigkeit habe ich gelernt, sowohl telefonisch als auch persÃ¶nlich Mitglieder- und KundengesprÃ¤che in einer anderen Sprache zu fÃ¼hren. Wo am Anfang noch Unsicherheiten auftraten, habe ich gemerkt, dass diese im Laufe der Zeit immer mehr verschwanden. Insgesamt war das Praktikum fÃ¼r mich sehr gut, da ich meine Kenntnisse und Eigenschaften wie AnpassungsfÃ¤higkeit, oder TeamfÃ¤higkeit unter Beweis stellen und einen Einblick in die verschiedensten TÃ¤tigkeiten gewinnen konnte. Die wichtigste Erkenntnis liegt jedoch darin, dass mir durch das Praktikum die spÃ¤tere Entscheidung, im finanzwirtschaftlichen Sektor beruflich zu betÃ¤tigen, konkretisiert wurde. Generell wurde mir ein guter Einblick in den Wirtschaftsbereich verschafft, in dem ich mir durchaus vorstellen kÃ¶nnte zu arbeiten. Die Betreuung war sehr gut, da mir sukzessive Verantwortung Ã¼bertragen wurde und ich immer die MÃ¶glichkeit hatte, neue TÃ¤tigkeiten zu erlernen und vor allem eigenstÃ¤ndig Projekte zu entwickeln und fÃ¼hren.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard Das Praktikum bei der 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Cooperativa de la PolicÃ­a Nacional 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+in Ecuador ist geeignet, um Kenntnisse im Bereich der BankentÃ¤tigkeit zu sammeln. Neben klassischen Bankdienstleistungen bietet die 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ald 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+Cooperativa 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Quotes ard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+darÃ¼berhinaus Mikrokredite und Darlehensprogramme, welche den Finanzprogrammen der Privatbanken entspricht, in ihrem Umfang jedoch weniger komplex und leichter verstÃ¤ndlich sind. Dies erleichterte mir den Einblick in die Finanzwelt und die Praktiken der Kreditvergabe. Der Vorteil besteht in der weiten Streuung der TÃ¤tigkeiten, in der sich die CPN engagiert. Dies erleichterte mir den Einblick in die Finanzwelt und die Arbeit einer Kooperative, die aus einem Zusammenschluss vieler Mitarbeiter der Polizei entstand. Die zu Anfang des Praktikums aufkommenden Unsicherheiten meiner Kollegen und Kolleginnen bezÃ¼glich meiner Spanischkenntnisse verschwanden schnell und wich einem konstruktiven ArbeitsverhÃ¤ltnis, bei dem beide Seiten profitiert en. RÃ¼ckblickend gesehen ist ein Praktikum bei einem Unternehmen, auÃerhalb des eigenen Landes, eine groÃe Gelegenheit, da sich so die VerstÃ¤ndigung auf die grundlegenden ArbeitsvorgÃ¤nge bezieht und die eigenen sozialen Kompetenzen in Form gemeinsamer Projekte geschult werden. Insgesamt war mein Praktikumsaufenthalt in er CPN eine sehr lohnende Erfahrung, die mir auch hinsichtlich meines Studiums nÃ¼tzliche Kenntnisse einbringt. BeigefÃ¼gt ist eine Kopie der Praktikumsbescheinigung. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset VSpace bigskip 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Right Address Gelesen und fÃ¼r gut befunden, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Newpage newpage 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Section Anhang 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Section 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+start
+\end_layout
+
+\end_inset
+
+ofappendix Schaubilder und Grafiken 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Graphics filename organigramm.png width 18cm
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Description 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Graphics filename directorio.jpg width 18cm
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Description 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Graphics filename tablaPlazoFijio.jpg width 9cm
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Description 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Graphics filename hipotecario.jpg
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+inset Newpage newpage 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+inset
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Section Praktikumsbescheinigung 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{}
+\end_layout
+
+\end_inset
+
+layout Standard
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+layout
+\end_layout
+
+\begin_layout Standard
+
+body document 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
