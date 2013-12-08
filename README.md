@@ -4,7 +4,7 @@ Quick Reference Cards:
 - TeX
 - LaTeX
 - VIM
-- git
-- tig
+- GIT
+- TIG
 
 compile them via: pdftex qrc<NAME>.tex
