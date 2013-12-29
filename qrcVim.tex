@@ -1,4 +1,3 @@
-
 % VIM Quick Reference Card
 % Copyright (c) 2009 Michael Goerz.
 % TeX Format
@@ -16,8 +15,8 @@
 \font\tinyit=cmmi5
 
 \def\title#1{\hfil{\bf #1}\hfil\par\vskip 2pt\hrule}
-\def\cm#1#2{{\tt#1}\dotfill#2\par}
-\def\cn#1{\hfill$\lfloor$ #1\par}
+\def\cmd#1#2{{\tt#1}\dotfill#2\par}
+\def\cnd#1{\hfill$\lfloor$ #1\par}
 \def\section#1{\vskip 0.7cm {\it#1\/}\par}
 
 % Characters definitions
@@ -49,23 +48,23 @@
 \newbox\leftcolumn
 \newbox\midcolumn
 \output={
-  \if L\lr
-    \global\setbox\leftcolumn=\columnbox
-    \global\let\lr=M
-  \else\if M\lr
-    \global\setbox\midcolumn=\columnbox
-    \global\let\lr=R
-  \else
-    \tripleformat
-    \global\let\lr=L
-  \fi\fi
-  \ifnum\outputpenalty>-20000
-  \else
-    \dosupereject
-  \fi}
+\if L\lr
+\global\setbox\leftcolumn=\columnbox
+\global\let\lr=M
+\else\if M\lr
+\global\setbox\midcolumn=\columnbox
+\global\let\lr=R
+\else
+\tripleformat
+\global\let\lr=L
+\fi\fi
+\ifnum\outputpenalty>-20000
+\else
+\dosupereject
+\fi}
 \def\tripleformat{
-  \shipout\vbox{\fullline{\box\leftcolumn\hfil\box\midcolumn\hfil\columnbox}}
-  \advancepageno}
+\shipout\vbox{\fullline{\box\leftcolumn\hfil\box\midcolumn\hfil\columnbox}}
+\advancepageno}
 \def\columnbox{\leftline{\pagebody}}
 
 % Card content
@@ -74,328 +73,336 @@
 \title{VIM QUICK REFERENCE CARD}
 
 \vskip 0.5cm
-\cm{:viusage }{Show a summary of all commands }
+\cmd{:viusage }{Show a summary of all commands }
 
 \section{Movements}
-\cm{h l k j }{character left, right; line up, down }
-\cm{b w }{word/token left, right }
-\cm{ge e }{end of word/token left, right}
-\cm{\lapos\ \rapos }{beginning of previous, next paragraph}
-\cm{( ) }{beginning of previous, next sentence}
-\cm{0 \^\ \$ }{beginning, first, last character of line}
-\cm{$n$G $n$gg }{line $n$, default the last, first}
-\cm{$n|$ }{column $n$ of current line}
-\cm{\% }{match of next brace, bracket, comment, {\tt\#define}}
-\cm{- + }{line up, down on first non-blank character}
-\cm{B W }{space-separated word left, right}
-\cm{gE E }{end of space-separated word left, right}
-\cm{g0 gm }{beginning, middle of {\it screen\/} line}
-\cm{g\^\ g\$ }{first, last character of {\it screen\/} line}
-\cm{f$c$ F$c$ }{next, previous occurence of character $c$}
-\cm{t$c$ T$c$ }{before next, previous occurence of $c$}
+\cmd{h l k j }{character left, right; line up, down }
+\cmd{b w }{word/token left, right }
+\cmd{ge e }{end of word/token left, right}
+\cmd{\lapos\ \rapos }{beginning of previous, next paragraph}
+\cmd{( ) }{beginning of previous, next sentence}
+\cmd{0 \^\ \$ }{beginning, first, last character of line}
+\cmd{$n$G $n$gg }{line $n$, default the last, first}
+\cmd{$n|$ }{column $n$ of current line}
+\cmd{\% }{match of next brace, bracket, comment, {\tt\#define}}
+\cmd{- + }{line up, down on first non-blank character}
+\cmd{B W }{space-separated word left, right}
+\cmd{gE E }{end of space-separated word left, right}
+\cmd{g0 gm }{beginning, middle of {\it screen\/} line}
+\cmd{g\^\ g\$ }{first, last character of {\it screen\/} line}
+\cmd{f$c$ F$c$ }{next, previous occurence of character $c$}
+\cmd{t$c$ T$c$ }{before next, previous occurence of $c$}
 
 \section{Jumps}
-\cm{:jumps }{print the jump list}
-\cm{:ta \ctrl[ }{jump to tag (under cursor)}
-\cm{\ctrl O \ctrl I }{jump to older/newer location btw. buffers}
-\cm{$n$g; $n$g, }{go to or edit $n$ older/newer position in change list}
-\cm{'. }{jump back on last edited line}
-\cm{'' }{toggle back/forward to previous/next position}
+\cmd{:jumps }{print the jump list}
+\cmd{:ta \ctrl[ }{jump to tag (under cursor)}
+\cmd{\ctrl O \ctrl I }{jump to older/newer location btw. buffers}
+\cmd{$n$g; $n$g, }{go to or edit $n$ older/newer position in change list}
+\cmd{'. }{jump back on last edited line}
+\cmd{'' }{toggle back/forward to previous/next position}
 
 \section{Insertion \& Replace $\to$ insert mode}
-\cm{i a }{insert before, after cursor}
-\cm{I A }{insert at beginning, end of line}
-\cm{gi gI }{insert text on last edited line / first column}
-\cm{o O }{open a new line below, above the current line}
-\cm{r$c$ }{replace character under cursor with $c$}
-\cm{gr$c$ }{like {\tt r}, but without affecting layout}
-\cm{R }{replace characters starting at the cursor}
-\cm{gR }{like {\tt R}, but without affecting layout}
-\cm{s$c$}{substitute char. $c$ under cursor}
-\cm{c$m$ }{change text of movement command $m$}
-\cm{cc\or S }{change current line}
-\cm{C }{change to the end of line}
+\cmd{i a }{insert before, after cursor}
+\cmd{I A }{insert at beginning, end of line}
+\cmd{gi gI }{insert text on last edited line / first column}
+\cmd{o O }{open a new line below, above the current line}
+\cmd{r$c$ }{replace character under cursor with $c$}
+\cmd{gr$c$ }{like {\tt r}, but without affecting layout}
+\cmd{R }{replace characters starting at the cursor}
+\cmd{gR }{like {\tt R}, but without affecting layout}
+\cmd{s$c$}{substitute char. $c$ under cursor}
+\cmd{c$m$ }{change text of movement command $m$}
+\cmd{cc\or S }{change current line}
+\cmd{C }{change to the end of line}
 
 \section{Deletion}
-\cm{x X }{delete character under, before cursor}
-\cm{d$m$ }{delete text of movement command $m$}
-\cm{dd D }{delete current line, to the end of line}
-\cm{dgn }{delete the next search pattern match}
-\cm{J gJ }{join current line with next, without space}
-\cm{:$r$d } {delete range $r$ lines}
-\cm{:$r$d$x$ } {delete range $r$ lines into register $x$}
+\cmd{x X }{delete character under, before cursor}
+\cmd{d$m$ }{delete text of movement command $m$}
+\cmd{dd D }{delete current line, to the end of line}
+\cmd{dgn }{delete the next search pattern match}
+\cmd{J gJ }{join current line with next, without space}
+\cmd{:$r$d } {delete range $r$ lines}
+\cmd{:$r$d$x$ } {delete range $r$ lines into register $x$}
+\cmd{q$x$q}{empty register $x$}
+\cmd{:g/pattern/d $x$\\:let @+ = @a} {delete lines with pattern $c$ into
+Register $x$ and copy to clipboard (\tt{:let \dots @a})}
 
 \section{Insert/ Command Mode}
-\cm{\ctrl V$c$ \ctrl V$n$ }{insert char $c$ literally, decimal value $n$}
-\cm{\ctrl V$n$ }{insert decimal value of character}
-\cm{\ctrl A }{insert previously inserted text}
-\cm{\ctrl @ }{same as {\tt\ctrl A} and stop insert $\to$ command mode}
-\cm{\ctrl R$x$ \ctrl R\ctrl R$x$ }{insert content of register $x$, literally}
-\cm{\ctrl R\ctrl W}{content under cursor to command mode}
-\cm{\ctrl N \ctrl P }{text completion before, after cursor}
-\cm{\ctrl W }{delete word before cursor}
-\cm{\ctrl U }{delete to start of current line}
-\cm{\ctrl D \ctrl T }{shift left, right one shift width}
-\cm{\ctrl O$c$ }{execute $c$ in temporary command mode}
-\cm{\ctrl X\ctrl E \ctrl X\ctrl Y }{scroll up, down}
-\cm{\key{esc}\or \ctrl\rbracket}{abandon edition $\to$ command mode}
+\cmd{\ctrl V$c$ \ctrl V$n$ }{insert char $c$ literally, decimal value $n$}
+\cmd{\ctrl V$n$ }{insert decimal value of character}
+\cmd{\ctrl A }{insert previously inserted text}
+\cmd{\ctrl @ }{same as {\tt\ctrl A} and stop insert $\to$ command mode}
+\cmd{\ctrl R$x$ \ctrl R\ctrl R$x$ }{insert content of register $x$, literally}
+\cmd{\ctrl R\ctrl W}{content under cursor to command mode}
+\cmd{\ctrl N \ctrl P }{text completion before, after cursor}
+\cmd{\ctrl W }{delete word before cursor}
+\cmd{\ctrl U }{delete to start of current line}
+\cmd{\ctrl D \ctrl T }{shift left, right one shift width}
+\cmd{\ctrl O$c$ }{execute $c$ in temporary command mode}
+\cmd{\ctrl X\ctrl E \ctrl X\ctrl Y }{scroll up, down}
+\cmd{\key{esc}\or \ctrl\rbracket}{abandon edition $\to$ command mode}
 
 %\vskip 0.4cm
 \section{Search \& Substitution}
-\cm{/$s$\enter\ ?$s$\enter }{search forward, backward for $s$}
-\cm{/$s$/$o$\enter\ ?$s$?$o$\enter }{search fwd, bwd for $s$ with offset $o$}
-\cm{n\or /\enter }{repeat forward last search}
-\cm{N\or ?\enter }{repeat backward last search}
-\cm{\# * }{search backward, forward for word under cursor}
-\cm{g\# g* }{same, but also find partial matches}
-\cm{gd gD }{local, global definition of symbol under cursor}
-\cm{:$r$s/$f$/$t$/$x$ } {substitute $f$ by $t$ in range $r$}
-\cn{$x:$ {\tt g}---all occurrences, {\tt c}---confirm changes}
-\cm{:$r$s $x$ } {repeat substitution with new $r$ \& $x$}
-\cm{:$r$g/$p$/$c$ :$r$v/$p$/$c$ } {execute {\it Ex\/} $c$ on range $r$ where $p$ matches/does not match}
+\cmd{/$s$\enter\ ?$s$\enter }{search forward, backward for $s$}
+\cmd{/$s$/$o$\enter\ ?$s$?$o$\enter }{search fwd, bwd for $s$ with offset $o$}
+\cmd{n\or /\enter }{repeat forward last search}
+\cmd{N\or ?\enter }{repeat backward last search}
+\cmd{\# * }{search backward, forward for word under cursor}
+\cmd{g\# g* }{same, but also find partial matches}
+\cmd{gd gD }{local, global definition of symbol under cursor}
+\cmd{:$r$s/$f$/$t$/$x$ } {substitute $f$ by $t$ in range $r$}
+\cnd{$x:$ {\tt g}---all occurrences, {\tt c}---confirm changes}
+\cmd{:$r$s $x$ } {repeat substitution with new $r$ \& $x$}
+\cmd{:$r$g/$p$/$c$ :$r$v/$p$/$c$ } {execute {\it Ex\/} $c$ on range $r$ where $p$ matches/does not match}
 
 \vskip -0.2cm
 \section{Misc Ex Commands (\enter)}
-\cm{:help holy-grail }{show all Ex commands}
-\cm{:e $f$ }{edit file $f$, reload current file if no $f$}
-\cm{:$r$w $f$ }{write range $r$ to file $f$ (current file if no $f$)}
-\cm{:$r$w$>$\kern-3pt$>$$f$ }{append range $r$ to file $f$}
-\cm{:q :q! }{quit and confirm, quit and discard changes}
-\cm{:wq\or :x\or ZZ }{write to current file and exit}
-\cm{:r $f$ }{insert content of file $f$ below cursor}
-\cm{:r!\ $c$ }{insert output of command $c$ below cursor}
-\cm{:$r$c\ $a$ :$r$m\ $a$ }{copy, move range $r$ below line $a$}
-\cm{:$r$g/$p$/-1j }{join all lines in $r$ containing pattern $p$ with prev. line}
-\cm{:$r$g/$p$/s/$q$/$y$/g }{for every line in $r$ containing $p$, substitute $q$ with $y$}
-\cm{:$r$'$a$,'$b$g/$p$/j}{join any line containing the string $p$ to its subsequent line, if it lies between the $a$ and $b$ marks}
+\cmd{:help holy-grail }{show all Ex commands}
+\cmd{:e $f$ }{edit file $f$, reload current file if no $f$}
+\cmd{:$r$w $f$ }{write range $r$ to file $f$ (current file if no $f$)}
+\cmd{:$r$w$>$\kern-3pt$>$$f$ }{append range $r$ to file $f$}
+\cmd{:q :q! }{quit and confirm, quit and discard changes}
+\cmd{:wq\or :x\or ZZ }{write to current file and exit}
+\cmd{:r $f$ }{insert content of file $f$ below cursor}
+\cmd{:r!\ $c$ }{insert output of command $c$ below cursor}
+\cmd{:$r$c\ $a$ :$r$m\ $a$ }{copy, move range $r$ below line $a$}
+\cmd{:$r$g/$p$/-1j }{join all lines in $r$ containing pattern $p$ with prev. line}
+\cmd{:$r$g/$p$/s/$q$/$y$/g }{for every line in $r$ containing $p$, substitute $q$ with $y$}
+\cmd{:$r$'$a$,'$b$g/$p$/j}{join any line containing the string $p$ to its subsequent line, if it lies between the $a$ and $b$ marks}
 
 
 
 \vskip -0.2cm
 \section{Ex Ranges}
-\cm{, ;\ }{separates two lines numbers, set to first line }
-\cm{$n$ }{an absolute line number $n$}
-\cm{.\thinspace\thinspace\thinspace\$ }{the current line, the last line in file}
-\cm{\% * }{entire file, visual area}
-\cm{'$t$ }{position of mark $t$}
-\cm{/$p$/ ?$p$? }{the next, previous line where $p$ matches}
-\cm{+$n$ -$n$ }{$+n$, $-n$ to the preceding line number}
+\cmd{, ;\ }{separates two lines numbers, set to first line }
+\cmd{$n$ }{an absolute line number $n$}
+\cmd{.\thinspace\thinspace\thinspace\$ }{the current line, the last line in file}
+\cmd{\% * }{entire file, visual area}
+\cmd{'$t$ }{position of mark $t$}
+\cmd{/$p$/ ?$p$? }{the next, previous line where $p$ matches}
+\cmd{+$n$ -$n$ }{$+n$, $-n$ to the preceding line number}
 
 
 
 %\vskip 0.4cm
 \section{Standard Mode Formatting/ Filtering}
 Leave out $m$ for visual mode commands \\
-\cm{gq$m$ gqgq }{format movement $m$/current paragraph}
-\cm{:$r$ce $w$ } {center lines in range $r$ to width $w$}
-\cm{:$r$le $i$ } {left align lines in range $r$ with indent $i$}
-\cm{:$r$ri $w$ } {right align lines in range $r$ to width $w$}
-\cm{!$m$$c$\enter }{filter lines of movement $m$ through command $c$}
-\cm{$n$!!$c$\enter }{filter $n$ lines through command $c$}
-\cm{:$r$!$c$ } {filter range $r$ lines through command $c$}
-\cm{\tild }{switch case and advance cursor}
-\cm{g\tild{$m$} gu$m$ gU$m$ }{switch case, lc, uc on movement $m$}
-\cm{$<$$m$ $>$$m$ }{shift left, right text of movement $m$}
-\cm{$n$$<$\kern-3pt$<$ $n$$>$\kern-3pt$>$ }{shift $n$ lines left, right}
-\cm{\ctrl A \ctrl X}{increment/decrement number under cursor}
+\cmd{gq$m$ gqgq }{format movement $m$/current paragraph}
+\cmd{:$r$ce $w$ } {center lines in range $r$ to width $w$}
+\cmd{:$r$ri $w$ } {right align lines in range $r$ to width $w$}
+\cmd{:$r$le $i$ } {left align lines in range $r$ with indent $i$}
+\cmd{!$m$$c$\enter }{filter lines of movement $m$ through command $c$}
+\cmd{$n$!!$c$\enter }{filter $n$ lines through command $c$}
+\cmd{:$r$!$c$ } {filter range $r$ lines through command $c$}
+\cmd{\tild }{switch case and advance cursor}
+\cmd{g\tild{$m$} gu$m$ gU$m$ }{switch case, lc, uc on movement $m$}
+\cmd{guu gUU}{lower-/uppercase line}
+\cmd{$<$$m$ $>$$m$ }{shift left, right text of movement $m$}
+\cmd{$n$$<$\kern-3pt$<$ $n$$>$\kern-3pt$>$ }{shift $n$ lines left, right}
+\cmd{\ctrl A \ctrl X}{increment/decrement number under cursor}
 
 %\vskip 0.8cm
 \section{Visual Mode}
-\cm{:h object-select}{Object selecting patterns}
-\cm{v V \ctrl V }{start/stop highlighting characters, lines, block}
-\cm{o }{exchange cursor position with start of highlighting}
-\cm{gv }{start highlighting on previous visual area}
-\cm{aw as ap }{select a word, a sentence, a paragraph}
-\cm{ab aB }{select a block ( ), a block {\tt\lapos} {\tt\rapos}}
-\cm{$n\hskip -0.3em>$ $n\hskip -0.3em<$ $=$ }{indent/unindent $n$ levels, reindent}
+\cmd{:h object-select}{Object selecting patterns}
+\cmd{v V \ctrl V }{start/stop highlighting characters, lines, block}
+\cmd{o }{exchange cursor position with start of highlighting}
+\cmd{gv }{start highlighting on previous visual area}
+\cmd{aw as ap }{select a word, a sentence, a paragraph}
+\cmd{ab aB }{select a block ( ), a block {\tt\lapos} {\tt\rapos}}
 
 \section{Undoing, Repeating \& Registers}
-\cm{u U }{undo last command, restore last changed line}
-\cm{.\thinspace\thinspace\ctrl R }{repeat last changes, redo last undo}
-\cm{$n$.\ }{repeat last changes with count replaced by $n$ }
-\cm{q$c$ q$C$ }{record, append typed characters in register $c$}
-\cm{q }{stop recording}
-\cm{@$c$ }{execute the content of register $c$}
-\cm{@@ }{repeat previous {\tt @} command}
-\cm{:@$c$ } {execute register $c$ as an {\it Ex\/} command}
+\cmd{u U }{undo last command, restore last changed line}
+\cmd{.\thinspace\thinspace\ctrl R }{repeat last changes, redo last undo}
+\cmd{$n$.\ }{repeat last changes with count replaced by $n$ }
+\cmd{q$c$ q$C$ }{record, append typed characters in register $c$}
+\cmd{q }{stop recording}
+\cmd{@$c$ }{execute the content of register $c$}
+\cmd{@@ }{repeat previous {\tt @} command}
+\cmd{:@$c$ } {execute register $c$ as an {\it Ex\/} command}
 
 
 \section{Copying}
-\cm{"$x$ }{use register $x$ for next delete, yank, put}
-\cm{:reg } {show the content of all registers}
-\cm{:reg $x$ } {show the content of registers $x$}
-\cm{y$m$ }{yank the text of movement command $m$}
-\cm{yy\or Y }{yank current line into register}
-\cm{p P }{put register after, before cursor position}
-\cm{\rbracket p \lbracket p }{like {\tt p}, {\tt P} with indent adjusted}
-\cm{gp gP }{like {\tt p}, {\tt P} leaving cursor after new text}
+\cmd{"$x$ }{use register $x$ for next delete, yank, put}
+\cmd{:reg } {show the content of all registers}
+\cmd{:reg $x$ } {show the content of registers $x$}
+\cmd{y$m$ }{yank the text of movement command $m$}
+\cmd{yy\or Y }{yank current line into register}
+\cmd{p P }{put register after, before cursor position}
+\cmd{\rbracket p \lbracket p }{like {\tt p}, {\tt P} with indent adjusted}
+\cmd{gp gP }{like {\tt p}, {\tt P} leaving cursor after new text}
 
 
 
 \section{Patterns (differences to Perl)}
-\cm{:help pattern } {show complete help on patterns}
-\cm{\bs$<$ \bs$>$ }{start, end of word}
-\cm{\bs i \bs k \bs I \bs K }{an identifier, keyword; excl. digits}
-\cm{\bs f \bs p \bs F \bs P }{a file name, printable char.; excl. digits}
-\cm{\bs e \bs t \bs r \bs b }{\key{esc}, \key{tab}, \key{\enter}, \key{$\gets$}}
-\cm{\bs = * \bs + }{match $0..1$, $0..\infty$, $1..\infty$ of preceding atoms}
-\cm{\bs$\{n,m\}$ }{match $n$ to $m$ occurrences}
-\cm{\bs$\{-\}$ }{non-greedy match}
-\cm{\bs$|$ }{separate two branches ($\equiv$ {\it or\/})}
-\cm{\bs( \bs) }{group patterns into an atom}
-\cm{\bs \& \bs{}1 }{the whole matched pattern, $1^{st}$ {\tt()} group}
-\cm{\bs u \bs l }{upper, lowercase character}
-\cm{\bs c \bs C }{ignore, match case on next pattern}
-\cm{\bs \%x }{match hex character}
-\cm{\bs @= \bs @! }{\tt (?=pattern) (?!pattern)\rm}
-\cm{\bs @$<$= \bs @$<$! }{\tt (?$<$=pattern) (?$<$!pattern)\rm}
-\cm{\bs @$>$ }{\tt (?$>$pattern)\rm }
-\cm{\bs\_\^{} \bs\_\$ }{start-of-line/end-of-line, anywhere in pattern}
-\cm{\bs\_. }{any single char, including end-of-line}
-\cm{\bs zs \bs ze }{set start/end of pattern}
-\cm{\bs \%\^{} \bs\%\$ }{match start/end of file}
-\cm{\bs\%{}V }{match inside visual area}
-\cm{\bs\tt'\rm m }{match with position of mark m}
-\cm{\bs\%(\bs) }{unnamed grouping}
-\cm{\bs\_$[$ $]$ }{collection with end-of-line included}
-\cm{\bs\%$[$ $]$ }{sequence of optionally matched atoms}
-\cm{\bs{}v }{very magic: patterns almost like perl}
+\cmd{:help pattern } {show complete help on patterns}
+\cmd{\bs$<$ \bs$>$ }{start, end of word}
+\cmd{\bs i \bs k \bs I \bs K }{an identifier, keyword; excl. digits}
+\cmd{\bs f \bs p \bs F \bs P }{a file name, printable char.; excl. digits}
+\cmd{\bs e \bs t \bs r \bs b }{\key{esc}, \key{tab}, \key{\enter}, \key{$\gets$}}
+\cmd{\bs = * \bs + }{match $0..1$, $0..\infty$, $1..\infty$ of preceding atoms}
+\cmd{\bs$\{n,m\}$ }{match $n$ to $m$ occurrences}
+\cmd{\bs$\{-\}$ }{non-greedy match}
+\cmd{\bs$|$ }{separate two branches ($\equiv$ {\it or\/})}
+\cmd{\bs( \bs) }{group patterns into an atom}
+\cmd{\bs \& \bs{}1 }{the whole matched pattern, $1^{st}$ {\tt()} group}
+\cmd{\bs u \bs l }{upper, lowercase character}
+\cmd{\bs c \bs C }{ignore, match case on next pattern}
+\cmd{\bs \%x }{match hex character}
+\cmd{\bs @= \bs @! }{\tt (?=pattern) (?!pattern)\rm}
+\cmd{\bs @$<$= \bs @$<$! }{\tt (?$<$=pattern) (?$<$!pattern)\rm}
+\cmd{\bs @$>$ }{\tt (?$>$pattern)\rm }
+\cmd{\bs\_\^{} \bs\_\$ }{start-of-line/end-of-line, anywhere in pattern}
+\cmd{\bs\_. }{any single char, including end-of-line}
+\cmd{\bs zs \bs ze }{set start/end of pattern}
+\cmd{\bs \%\^{} \bs\%\$ }{match start/end of file}
+\cmd{\bs\%{}V }{match inside visual area}
+\cmd{\bs\tt'\rm m }{match with position of mark m}
+\cmd{\bs\%(\bs) }{unnamed grouping}
+\cmd{\bs\_$[$ $]$ }{collection with end-of-line included}
+\cmd{\bs\%$[$ $]$ }{sequence of optionally matched atoms}
+\cmd{\bs{}v }{very magic: patterns almost like perl}
 
 
 \vskip -0.2cm
 \section{Spell Checking}
-\cm{:set spell spelllang=de\_20 } {activate spellcheck}
-\cm{$]$s }{next misspelled word}
-\cm{zg zG }{add good word (to internal word list)}
-\cm{zug zuG}{undo the addition of a word to the dictionary}
-\cm{zw zW }{mark bad word (to internal word list)}
-\cm{z= }{suggest corrections}
+\cmd{:set spell spelllang=de\_20 } {activate spellcheck}
+\cmd{$]$s }{next misspelled word}
+\cmd{zg zG }{add good word (to internal word list)}
+\cmd{zug zuG}{undo the addition of a word to the dictionary}
+\cmd{zw zW }{mark bad word (to internal word list)}
+\cmd{z= }{suggest corrections}
 
 \section{Marks, Motions, and Tags}
-\cm{m$c$ }{mark current position with mark $c\in[a..Z]$}
-\cm{`$c$ `$C$ }{go to mark $c$ in current, $C$ in any file}
-\cm{`$0..9$ }{go to last exit position}
-\cm{`\/`  `\/" }{go to position before jump, at last edit}
-\cm{`[ `] }{go to start, end of previously operated text}
-\cm{:marks } {print the active marks list}
-\cm{$n$\ctrl O }{go to $n^{th}$ older position in jump list}
-\cm{$n$\ctrl I }{go to $n^{th}$ newer position in jump list}
-\cm{\ctrl ] \ctrl T }{jump to the tag under cursor, return from tag}
-\cm{:ts $t$ } {list matching tags and select one for jump}
-\cm{:tj $t$ } {jump to tag or select one if multiple matches}
-\cm{:tags } {print tag list}
+\cmd{m$c$ }{mark current position with mark $c\in[a..Z]$}
+\cmd{`$c$ `$C$ }{go to mark $c$ in current, $C$ in any file}
+\cmd{`$0..9$ }{go to last exit position}
+\cmd{`\/`  `\/" }{go to position before jump, at last edit}
+\cmd{`[ `] }{go to start, end of previously operated text}
+\cmd{:marks } {print the active marks list}
+\cmd{$n$\ctrl O }{go to $n^{th}$ older position in jump list}
+\cmd{$n$\ctrl I }{go to $n^{th}$ newer position in jump list}
+\cmd{\ctrl ] \ctrl T }{jump to the tag under cursor, return from tag}
+\cmd{:ts $t$ } {list matching tags and select one for jump}
+\cmd{:tj $t$ } {jump to tag or select one if multiple matches}
+\cmd{:tags } {print tag list}
 
 \section{Multiple Files / Buffers (\enter)}
-\cm{:h buffers}{get help for buffer-management}
-\cm{:tab ball }{show buffer tablist}
-\cm{:buffers }{show list of buffers}
-\cm{:on } {make current window one on screen}
-\cm{:new :vnew } {create new empty window (vert.)}
-\cm{:b$n$ }{switch to buffer $n$}
-\cm{:bnext :bprev :bfirst :blast }{buffer movement}
-\cm{:bd$n$ }{delete buffer $n$ (also with filename)}
-\cm{:badd f.txt }{load file into new buffer}
-\cm{:sb$n$ }{Split window and edit buffer $n$ from the buffer list}
-\cm{:vertical$n$ :horizontal$c$ }{execute $c$ on vert./horiz. split}
-\cm{:rightabove$c$ :leftbelow$c$ }{execute $c$ (eg. sb$n$) right/left above/below window}
+\cmd{:h buffers}{get help for buffer-management}
+\cmd{:tab ball }{show buffer tablist}
+\cmd{:buffers }{show list of buffers}
+\cmd{:on } {make current window one on screen}
+\cmd{:new :vnew } {create new empty window (vert.)}
+\cmd{:b$n$ }{switch to buffer $n$}
+\cmd{:bnext :bprev :bfirst :blast }{buffer movement}
+\cmd{:bd$n$ }{delete buffer $n$ (also with filename)}
+\cmd{:badd f.txt }{load file into new buffer}
+\cmd{:sb$n$ }{Split window and edit buffer $n$ from the buffer list}
+\cmd{:vertical$n$ :horizontal$c$ }{execute $c$ on vert./horiz. split}
+\cmd{:rightabove$c$ :leftbelow$c$ }{execute $c$ (eg. sb$n$) right/left above/below window}
 
 \section{Buffer Shortcuts}
-\cm{:h ctrl-w }{complete list of all buffer commands}
-\cm{\ctrl \^{} }{toggle between the current and the last window}
-\cm{\ctrl Wf gf }{open file under cursor in new/current window}
-\cm{\ctrl Ww \ctrl W\ctrl W }{move to window below, above (wrap)}
-\cm{\ctrl Wj \ctrl Wk }{move to window below, above}
-\cm{\ctrl Wt \ctrl Wb }{move to top/bottom window}
-\cm{\ctrl Wo \ctrl Wc }{close all other/current window(s)}
-\cm{\ctrl Ws \ctrl Wv } {split window in two (vert.)}
-\cm{\ctrl Wx } {swap open buffer windows }
-\cm{\ctrl W$n$+ \ctrl W$n$- }{increase/decrease window size by $n$ lines}
-\cm{\ctrl W$n>$ \ctrl W$n<$ }{increase/decrease window width}
-\cm{\ctrl W = } {Make all windows equally high and wide}
-\cm{\ctrl W $n\_$ }{set window height to $n$ (default: very high) }
-\cm{\ctrl W $n|$ }{set current window width to $n$ }
+\cmd{:h ctrl-w }{complete list of all buffer commands}
+\cmd{\ctrl \^{} }{toggle between the current and the last window}
+\cmd{\ctrl Wf gf }{open file under cursor in new/current window}
+\cmd{\ctrl Ww \ctrl W\ctrl W }{move to window below, above (wrap)}
+\cmd{\ctrl Wj \ctrl Wk }{move to window below, above}
+\cmd{\ctrl Wt \ctrl Wb }{move to top/bottom window}
+\cmd{\ctrl Wo \ctrl Wc }{close all other/current window(s)}
+\cmd{\ctrl Ws \ctrl Wv } {split window in two (vert.)}
+\cmd{\ctrl Wx } {swap open buffer windows }
+\cmd{\ctrl W$n$+ \ctrl W$n$- }{increase/decrease window size by $n$ lines}
+\cmd{\ctrl W$n>$ \ctrl W$n<$ }{increase/decrease window width}
+\cmd{\ctrl W = } {Make all windows equally high and wide}
+\cmd{\ctrl W $n\_$ }{set window height to $n$ (default: very high) }
+\cmd{\ctrl W $n|$ }{set current window width to $n$ }
 
 \section{Tab Management}
-\cm{:tabs }{list all tabs including their displayed windows}
-\cm{:tabfirst }{go to first tab}
-\cm{:tablast }{go to last tab}
-\cm{:tabnew }{open a new empty tab page}
-\cm{:tabc }{close current tab page}
-\cm{:wqa :qa }{(save and) quit all tabs}
-\cm{:tabo }{close all other tabs}
-\cm{gt gT }{go to next/previous Tab}
-\cm{$n$gt }{goto tab in position $n$ }
+\cmd{:tabs }{list all tabs including their displayed windows}
+\cmd{:tabfirst }{go to first tab}
+\cmd{:tablast }{go to last tab}
+\cmd{:tabnew }{open a new empty tab page}
+\cmd{:tabc }{close current tab page}
+\cmd{:wqa :qa }{(save and) quit all tabs}
+\cmd{:tabo }{close all other tabs}
+\cmd{gt gT }{go to next/previous Tab}
+\cmd{$n$gt }{goto tab in position $n$ }
 
 \section{Advanced Scrolling}
-\cm{\ctrl D \ctrl U }{scroll half a page up, down}
-\cm{\ctrl F \ctrl B }{scroll page up, down}
-\cm{zt zz zb }{current line to top, center, bottom of win.}
-\cm{zh zl }{scroll one character to the right, left}
-\cm{zH zL }{scroll half a screen to the right, left}
+\cmd{\ctrl D \ctrl U }{scroll half a page up, down}
+\cmd{\ctrl F \ctrl B }{scroll page up, down}
+\cmd{zt zz zb }{current line to top, center, bottom of win.}
+\cmd{zh zl }{scroll one character to the right, left}
+\cmd{zH zL }{scroll half a screen to the right, left}
 
 
 \vskip -0.2cm
 \section{Completion}
-\cm{\ctrl{}X\ctrl{}L}{whole lines}
-\cm{\ctrl{}X\ctrl{}N \ctrl{}X\ctrl{}I}{keywords in current file, plus included files}
-\cm{\ctrl{}X\ctrl{}K \ctrl{}X\ctrl{}N}{keywords in dictionary, thesaurus}
-\cm{\ctrl{}X\ctrl{}]}{tags}
-\cm{\ctrl{}X\ctrl{}F}{file names}
-\cm{\ctrl{}X\ctrl{}D}{definitions or macros}
-\cm{\ctrl{}X\ctrl{}V}{vim command line}
-\cm{\ctrl{}X\ctrl{}U}{user defined completion}
-\cm{\ctrl{}X\ctrl{}O}{omni completion}
+\cmd{\ctrl{}X\ctrl{}L}{whole lines}
+\cmd{\ctrl{}X\ctrl{}N \ctrl{}X\ctrl{}I}{keywords in current file, plus included files}
+\cmd{\ctrl{}X\ctrl{}K \ctrl{}X\ctrl{}N}{keywords in dictionary, thesaurus}
+\cmd{\ctrl{}X\ctrl{}]}{tags}
+\cmd{\ctrl{}X\ctrl{}F}{file names}
+\cmd{\ctrl{}X\ctrl{}D}{definitions or macros}
+\cmd{\ctrl{}X\ctrl{}V}{vim command line}
+\cmd{\ctrl{}X\ctrl{}U}{user defined completion}
+\cmd{\ctrl{}X\ctrl{}O}{omni completion}
 
 \section{Folding}
-\cm{:set fdm=indent } {indent-foldmethod}
-\cm{zf$m$ }{create fold of movement $m$}
-\cm{:$r$fo }{create fold for range $r$}
-\cm{zd zE }{delete fold at cursor, all in window}
-\cm{zo zc zO zC }{open, close one fold; recursively}
-\cm{[z ]z }{move to start, end of current open fold}
-\cm{zj zk }{move down, up to start, end of next fold}
-\cm{zm zM }{fold more, close all folds}
-\cm{zr zR }{fold less, open all folds}
-\cm{zn zN zi }{fold non, fold normal, invert folding}
-\cm{:set foldcolumn=4 } {show foldcolumn}
+\cmd{zf$m$ }{create fold of movement $m$}
+\cmd{:$r$fo }{create fold for range $r$}
+\cmd{zd zE }{delete fold at cursor, all in window}
+\cmd{zo zc zO zC }{open, close one fold; recursively}
+\cmd{[z ]z }{move to start, end of current open fold}
+\cmd{zj zk }{move down, up to start, end of next fold}
+\cmd{zm zM }{fold more, close all folds}
+\cmd{zr zR }{fold less, open all folds}
+\cmd{zn zN zi }{fold non, fold normal, invert folding}
+\cmd{:set foldcolumn=4 } {show foldcolumn}
 
 \section{Compiling}
-\cm{:compiler $c$ }{set/show compiler plugins}
-\cm{:make } {run {\tt makeprg}, jump to first error}
-\cm{:cope } {navigate errors from make}
-\cm{:cn :cp } {display the next, previous error}
-\cm{:cl :cf } {list all errors, read errors from file}
+\cmd{:compiler $c$ }{set/show compiler plugins}
+\cmd{:make } {run {\tt makeprg}, jump to first error}
+\cmd{:cope } {navigate errors from make}
+\cmd{:cn :cp } {display the next, previous error}
+\cmd{:cl :cf } {list all errors, read errors from file}
+
+\section{Indentation}
+\cmd{:set fdm=indent } {indent-foldmethod}
+%\cmd{:,2s/\ze #/\=repeat(' ',32) }{indent comments ' #' to column 32}
+\cmd{$n\hskip -0.3em>$ $n\hskip -0.3em<$ $=$ }{indent/unindent $n$ levels, reindent}
+\cmd{G=gg}{auto (re)indent entire document}
 
 \section{Miscellaneous}
-\cm{:sh :!$c$ } {start shell, execute command $c$ in shell}
-\cm{:mks $name$ }{save session $name$}
-\cm{vim -S $name$ }{reload vim-session $name$}
-\cm{:mkview $[f]$ :loadview $[f]$ }{save/load configuration}
-\cm{K }{run {\tt keywordprg} (manpage) on word under cursor}
-\cm{\ctrl L }{redraw screen}
-\cm{g\ctrl G}{show cursor column, line, and character position}
-\cm{:set cuc } {show cursor column visually}
-\cm{ga }{show A{\smallrm SCII} value of character under cursor}
-\cm{gf }{open file which filename is under cursor}
-\cm{:set ff=dos } {convert file to dos eol format}
-\cm{:e ++ff=unix } {reopen file in unix eol format}
-\cm{:set hlsearch } {highlight searches}
-\cm{:$r$hardcopy $r$w!lp }{sending $r$ to printer (printout)}
-\cm{:$r$hardcopy > file.ps }{print range to ps file}
-\cm{:set list }{show listchar characters (tabs etc.)}
-\cm{:set ic/noic }{(un)ignore cases in substitute-command}
-%\cm{:,2s/\ze #/\=repeat(' ',32) }{indent comments ' #' to column 32}
+\cmd{:$r$hardcopy $r$w!lp }{sending $r$ to printer (printout)}
+\cmd{:$r$hardcopy > file.ps }{print range to ps file}
+\cmd{:e ++ff=unix } {reopen file in unix eol format}
+\cmd{:mks $name$ }{save session $name$}
+\cmd{:mkview $[f]$ :loadview $[f]$ }{save/load configuration}
+\cmd{:set cuc } {show cursor column visually}
+\cmd{:set ff=dos } {convert file to dos eol format}
+\cmd{:set hlsearch } {highlight searches}
+\cmd{:set ic/noic }{(un)ignore cases in substitute-command}
+\cmd{:set list }{show listchar characters (tabs etc.)}
+\cmd{:sh :!$c$ } {start shell, execute command $c$ in shell}
+\cmd{K }{run {\tt keywordprg} (manpage) on word under cursor}
+\cmd{\ctrl L }{redraw screen}
+\cmd{\ctrl R = 5*5}{insert 25 into text}
+\cmd{g\ctrl G}{show cursor column, line, and character position}
+\cmd{ga }{show A{\smallrm SCII} value of character under cursor}
+\cmd{gf }{open file which filename is under cursor}
+\cmd{vim -S $name$ }{reload vim-session $name$}
 
 \section{Most Common Digraphs}
-\cm{:dig }{complete list of all digraphs}
-\cm{\ctrl K$c_1$$c_2$\or $c_1$\kern-1pt\backspace$c_2$ }{enter digraph $\{c_1,c_2\}$}
-\cm{Co }{Copyright }
-\cm{Rg }{Registered Trademark }
-\cm{!I }{!`: Inverteted Excl. Mark }
-\cm{?I }{?`: Inverteted Quest. Mark }
-\cm{Eu }{Euro Currency }
-\cm{Li }{Britain Pound Currency }
-\cm{14 12 34 }{1/4, 1/2, 3/4 etc.}
+\cmd{:dig }{complete list of all digraphs}
+\cmd{\ctrl K$c_1$$c_2$\or $c_1$\kern-1pt\backspace$c_2$ }{enter digraph $\{c_1,c_2\}$}
+\cmd{Co }{Copyright }
+\cmd{Rg }{Registered Trademark }
+\cmd{!I }{!`: Inverteted Excl. Mark }
+\cmd{?I }{?`: Inverteted Quest. Mark }
+\cmd{Eu }{Euro Currency }
+\cmd{Li }{Britain Pound Currency }
+\cmd{14 12 34 }{1/4, 1/2, 3/4 etc.}
 
 % Footer
 \vfill \hrule\smallskip
