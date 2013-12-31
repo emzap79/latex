@@ -169,7 +169,7 @@ Register $x$ and copy to clipboard (\tt{:let \dots @a})}
 \cmd{:$r$c\ $a$ :$r$m\ $a$ }{copy, move range $r$ below line $a$}
 \cmd{:$r$g/$p$/-1j }{join all lines in $r$ containing pattern $p$ with prev. line}
 \cmd{:$r$g/$p$/s/$q$/$y$/g }{for every line in $r$ containing $p$, substitute $q$ with $y$}
-\cmd{:$r$'$a$,'$b$g/$p$/j}{join any line containing the string $p$ to its subsequent line, if it lies between the $a$ and $b$ marks}
+\cmd{:'$a$,'$b$g/$p$/j}{join any line containing the string $p$ to its subsequent line, if it lies between the $a$ and $b$ marks}
 
 
 
@@ -406,9 +406,8 @@ Leave out $m$ for visual mode commands \\
 
 % Footer
 \vfill \hrule\smallskip
-{For further examples for how to use Exec-Commands see:
-{\smalltt
-http://stackoverflow.com/a/1220118}}\\\\
+{\smallrm More examples for how to use Exec-Commands see:\\
+{\smalltt http://stackoverflow.com/a/1220118}}\\\\
 {\smallrm This card may be freely distributed under
 the terms of the GNU general public licence ---
 Copyright \copyright\ {\oldstyle 2009} by Michael Goerz.
