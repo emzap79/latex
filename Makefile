@@ -1,31 +1,31 @@
 tex: 
 	pdftex qrcTeX.tex
-	evince qrcTeX.pdf &
+	xdg-open qrcTeX.pdf &
 
 latex: 
 	pdftex qrcLaTeX.tex
-	evince qrcLaTeX.pdf &
+	xdg-open qrcLaTeX.pdf &
 
 git: 
 	pdftex qrcGit.tex
-	evince qrcGit.pdf &
+	xdg-open qrcGit.pdf &
 
 tig: 
 	pdftex qrcTig.tex
-	evince qrcTig.pdf &
+	xdg-open qrcTig.pdf &
 
 vim: 
 	pdftex qrcVim.tex
-	evince qrcVim.pdf &
+	xdg-open qrcVim.pdf &
 
 viml: 
 	pdftex qrcVimLatex.tex
-	evince qrcVimLatex.pdf &
+	xdg-open qrcVimLatex.pdf &
 
 all:  
 	pdftex *.tex
 	pdftex *.tex; pdftex *.tex;
-	evince *.pdf &
+	xdg-open *.pdf &
 
 cleanall:
 	rm -f qrc*.aux qrc*.toc qrc*.bbl qrc*.idx qrc*.ilg qrc*.ind qrc*.log qrc*.toc qrc*.blg qrc*.pdf qrc*.out qrc*.glg qrc*.glo qrc*.gls qrc*.ist qrc*.maf qrc*.mtcqrc* qrc*.gz qrc*.backup qrc*.lot qrc*.lof

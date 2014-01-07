@@ -7,6 +7,7 @@ Quick Reference Cards:
 - GIT
 - TIG
 
-compile them via: pdftex qrc<NAME>.tex or use Makefile. Therefore go into
-directory where QRC is located and type 'make <NAME>' eg.  <code>make
-vim</code>.
+compile them via: pdftex qrc<NAME>.tex or use Makefile. Therefore change into
+directory where the QRC is located and type 'make <NAME>' eg.  <code>make
+vim</code>. This will compile the tex-file, showing the result-pdf in a Reader
+of your choice!
