@@ -303,12 +303,14 @@ Leave out $m$ for visual mode commands \\
 
 \section{Buffer Shortcuts}
 \cmd{:h ctrl-w }{complete list of all buffer commands}
+\cmd{:bd *.ext \ctrl A}{Deletes all Buffers with Extension `ext'}
+\cmd{:BufOnly [Plugin!]}{Deletes all other Buffers}
 \cmd{\ctrl \^{} }{toggle between the current and the last window}
 \cmd{\ctrl Wf gf }{open file under cursor in new/current window}
 \cmd{\ctrl Ww \ctrl W\ctrl W }{move to window below, above (wrap)}
 \cmd{\ctrl Wj \ctrl Wk }{move to window below, above}
 \cmd{\ctrl Wt \ctrl Wb }{move to top/bottom window}
-\cmd{\ctrl Wo \ctrl Wc }{close all other/current window(s)}
+\cmd{\ctrl Wc \ctrl Wo }{close current/all other window(s)}
 \cmd{\ctrl Ws \ctrl Wv } {split window in two (vert.)}
 \cmd{\ctrl Wx } {swap open buffer windows }
 \cmd{\ctrl W$n$+ \ctrl W$n$- }{increase/decrease window size by $n$ lines}
@@ -329,6 +331,7 @@ Leave out $m$ for visual mode commands \\
 \cmd{$n$gt }{goto tab in position $n$ }
 
 \section{Advanced Scrolling}
+\cmd{$n$\ctrl E}{Scroll window $n$ lines downwards in the buffer}
 \cmd{\ctrl D \ctrl U }{scroll half a page up, down}
 \cmd{\ctrl F \ctrl B }{scroll page up, down}
 \cmd{zt zz zb }{current line to top, center, bottom of win.}
@@ -377,7 +380,7 @@ Leave out $m$ for visual mode commands \\
 \cmd{:$r$hardcopy $r$w!lp }{sending $r$ to printer (printout)}
 \cmd{:$r$hardcopy > file.ps }{print range to ps file}
 \cmd{:e ++ff=unix } {reopen file in unix eol format}
-\cmd{:mks $name$ }{save session $name$}
+\cmd{:$\ast$.ext \ctrl A}{delete all Buffers with $\ast$.ext}
 \cmd{:mkview $[f]$ :loadview $[f]$ }{save/load configuration}
 \cmd{:set cuc } {show cursor column visually}
 \cmd{:set ff=dos } {convert file to dos eol format}
@@ -391,7 +394,22 @@ Leave out $m$ for visual mode commands \\
 \cmd{g\ctrl G}{show cursor column, line, and character position}
 \cmd{ga }{show A{\smallrm SCII} value of character under cursor}
 \cmd{gf }{open file which filename is under cursor}
+\cmd{:mks $name$ }{save session $name$}
 \cmd{vim -S $name$ }{reload vim-session $name$}
+
+\section{Search \& Replace Modifiers}
+% section %% search_&_replace_modifiers %{{{
+\cmd{h }{Remove a trailing file name component, leaving only the head.  }
+\cmd{t }{Remove all leading file name components, leaving the tail. }
+\cmd{r }{Remove a trailing suffix of the form .xxx, leaving the basename. }
+\cmd{e }{Remove all but the trailing suffix. }
+\cmd{p }{Print the new command but do not execute it. }
+\cmd{q }{Quote the substituted words, escaping further substitutions. }
+\cmd{x }{Quote the substituted words as with q, but break into words at blanks and newlines. }
+\cmd{\& }{Repeat the previous substitution. }
+\cmd{g }{Cause  changes  to  be applied over the entire event line. }
+\cmd{G }{Apply the following `s' modifier once to each word in the event line. }
+% section %% search_&_replace_modifiers (end) % }}}
 
 \section{Most Common Digraphs}
 \cmd{:dig }{complete list of all digraphs}
@@ -402,6 +420,9 @@ Leave out $m$ for visual mode commands \\
 \cmd{?I }{?`: Inverteted Quest. Mark }
 \cmd{Eu }{Euro Currency }
 \cmd{Li }{Britain Pound Currency }
+% \cmd{00 }{∞ }
+\cmd{00 }{$\infty$ }
+\cmd{*p *P}{$\pi$ $\Pi$ }
 \cmd{14 12 34 }{1/4, 1/2, 3/4 etc.}
 
 % Footer

@@ -1,10 +1,18 @@
-tex: 
+tex:
 	pdftex qrcTeX.tex
 	xdg-open qrcTeX.pdf &
 
-latex: 
+bash:
+	pdftex qrcBash.tex
+	xdg-open qrcBash.pdf &
+
+latex:
 	pdftex qrcLaTeX.tex
 	xdg-open qrcLaTeX.pdf &
+
+r:
+	pdflatex qrcR.tex
+	xdg-open qrcR.pdf &
 
 git: 
 	pdftex qrcGit.tex

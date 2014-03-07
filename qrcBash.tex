@@ -1,0 +1,286 @@
+% vim:ts=2:expandtab
+% GIT Quick Reference Card
+% Copyright (c) 2011 Jonas Petong.
+% TeX Format - Based on VIM Quick Reference Card
+
+% compile as 'pdftex git-qrc.tex'
+% preamble%{{{
+\def\versionnumber{1.0}  % Version of this reference card
+\def\year{2014}
+\def\month{Sep}
+\def\version{v\versionnumber\ \month\ \year}
+
+\def\shortcopyrightnotice{\smallskip
+  \centerline{\smallrm \copyright\ \year\ Jonas Petong -
+  Permissions on back. \version}}
+
+\def\copyrightnotice{
+\vfill \hrule\smallskip\begingroup\smallrm
+\centerline{\version. Copyright \copyright\ \year\ Jonas Petong}
+
+Permission is granted to make and distribute copies of this card provided
+the copyright notice and this permission notice are preserved on all
+copies. Send comments or corrections to Jonas Petong at:
+$\langle$kaktuuus@gmx.de$\rangle$
+
+\centerline{http://ebixio.com/ and http://github.com/gburca/git-qrc}
+\endgroup}
+
+% \pdfoutput=1
+\pdfpageheight=21cm
+\pdfpagewidth=29.7cm
+
+% Font definitions
+\font\bigbf=cmbx12
+\font\smallrm=cmr8
+\font\smalltt=cmtt8
+\font\tinyit=cmmi5
+
+\def\title#1{\hfil{\bf #1}\hfil\par\vskip 2pt\hrule}
+\def\section#1{\vskip 0.7cm {\it{\bf#1}\/}\par\vskip 1pt}
+\def\subsection#1{\vskip 0.7cm {\it#1\/}\par\vskip 1pt\hrule\vskip 1pt}
+
+
+% Characters definitions
+\def\\{\hfil\break}
+\def\bs{$\backslash$}
+\def\backspace{$\leftarrow$}
+\def\ctrl{{\rm\char94}\kern-1pt}
+\def\enter{$\hookleftarrow$}
+\def\or{\thinspace{\tinyit{or}}\thinspace}
+\def\key#1{$\langle${\rm{\it#1\/}}$\rangle$}
+\def\rapos{\char125}
+\def\lapos{\char123}
+\def\bs{\char92}
+\def\tild{\char126}
+\def\lbracket{[}
+\def\rbracket{]}
+
+% Three columns definitions
+\parindent 0pt
+\nopagenumbers
+\hoffset=-1.56cm
+\voffset=-1.54cm
+\newdimen\fullhsize
+\fullhsize=27.9cm
+\hsize=8.5cm
+\vsize=19cm
+\def\fullline{\hbox to\fullhsize}
+\let\lr=L
+\newbox\leftcolumn
+\newbox\midcolumn
+\output={
+  \if L\lr
+    \global\setbox\leftcolumn=\columnbox
+    \global\let\lr=M
+  \else\if M\lr
+    \global\setbox\midcolumn=\columnbox
+    \global\let\lr=R
+  \else
+    \tripleformat
+    \global\let\lr=L
+  \fi\fi
+  \ifnum\outputpenalty>-20000
+  \else
+    \dosupereject
+  \fi}
+\def\tripleformat{
+  \shipout\vbox{\fullline{\box\leftcolumn\hfil\box\midcolumn\hfil\columnbox}}
+  \advancepageno}
+\def\columnbox{\leftline{\pagebody}}
+
+% GIT optimizations
+\def\cmdFooBar#1{{\tt#1}\null}	%\null so not an abbrev even if period follows
+
+% A short command
+\def\cmd#1#2{
+  \noindent
+  \hbox to \hsize {% This comment is needed to remove space at start of line
+    \vtop{
+      \hbox to 2.4cm {
+        \noindent\cmdFooBar{#1}\dotfill
+      }
+      %\hrule
+    }% This comment is needed to remove space
+    \hfil	% absorb extra space b/w columns
+    \vtop{
+      \hsize=5.90cm
+      \hbox{\hfuzz = 15pt \vtop{
+      % Uncomment line below to right-align description
+      %\leftskip=0cm plus 150fil
+      {#2}
+      }}
+      %\hrule
+    }
+  }
+  %\hrule
+  \par
+  \vskip 0.14cm
+}
+
+\def\cmdExample#1#2#3{
+      \hbox to 1.4cm {
+      % \hfuzz = 5pt
+      \hskip 14pt
+      %\hfil
+      %\hsize=5.9cm
+      \noindent\cmdFooBar{\it#1}
+      }
+      \hbox to 2.4cm {
+      % \hfuzz = 5pt
+      \hskip 14pt
+      %\hfil
+      %\hsize=5.9cm
+      \noindent\cmdFooBar{\it#2}
+      }
+}
+
+% A short command + options
+\def\cmdOpt#1#2{
+  \noindent
+  \hbox to \hsize {% This comment is needed to remove space at start of line
+    \vtop{
+      \hbox to 1.7cm {
+      % \hfuzz = 5pt
+      \hskip 14pt
+      %\hfil
+      %\hsize=5.9cm
+      \noindent\cmdFooBar{\it#1}
+      }
+      %\hrule
+    }% This comment is needed to remove space
+    \hfil	% absorb extra space b/w columns
+    \vtop{
+      \hsize=5.90cm
+      \hbox{\hfuzz = 15pt \vtop{
+      % Uncomment line below to right-align description
+      %\leftskip=0cm plus 150fil
+      \it{#2}
+      }}
+      %\hrule
+    }
+  }
+  %\hrule
+  \par
+  \vskip 0.14cm
+}
+
+% A long command
+\def\cmdL#1#2{
+  \hsize=8.5cm
+  \vbox {
+    \hbox{
+        \cmdFooBar{#1}\hfil
+    }%
+    %\vskip -0.2cm % adjusts space b/w command & description
+    \hskip 2.5cm  % indent for description
+    \hbox to 5.9cm {%
+      \hfuzz = 5pt
+      % Use the first one when right-aligned
+      %\vrule\hskip -0.05cm
+      %\vrule\hskip 0.05cm
+      \hfil
+      \hsize=5.9cm
+      \vtop{
+        %\hrule
+        % Uncomment line below to right-align description
+        %\leftskip=0cm plus 150fil
+        {#2}
+        }}
+  }%
+  %\hrule
+  \par
+  \vskip 0.14cm
+}
+%}}}
+% card content%{{{
+% Header
+\title{BASH QUICK REFERENCE CARD}
+
+\shortcopyrightnotice
+
+\section{History}
+\subsection{Shortcuts}
+\cmd{\ctrl p}{Fetch the previous command from the history list}
+\cmd{\ctrl n}{Fetch the next command from the history list}
+\cmd{\ctrl r}{Search history backward (incremental search)}
+\cmd{\ctrl s}{Search history forward (incremental search)}
+\cmd{\ctrl r}{Search history backward for a command matching \it{string}}
+\cmd{\ctrl s}{Search history forward for a command matching \it{string}}
+\cmd{Meta-p}{Search backward using non-incremental search}
+\cmd{Meta-n}{Search forward using non-incremental search}
+\cmd{Meta-$<$}{Move to the first line in the history}
+\cmd{Meta-$>$}{Move to the end of the history list}
+\cmd{k}{Fetch the previous command from the history list}
+\cmd{j}{Fetch the next command from the history list}
+\cmd{n}{Repeat search in the same direction as previous}
+\cmd{N}{Repeat search in the opposite direction as previous}
+\cmd{G}{Move to the N-th history line}
+\cmdOpt{15G}{move to $15$th line}
+
+\subsection{History-Commands}
+example commmand is: \tt{cp foo bar}\\
+\cmd{!$n$}{executes command number $n$}
+\cmd{!!}{runs previous executed command (also known as `bang bang')}
+% \cmdExample{echo foo}{previous history entry}
+\cmdOpt{echo foo}{previous history entry}
+\cmdOpt{sudo\ !!}{sudo echo foo}
+\cmd{!$c$}{executes previous command, which began on $c$}
+\cmdOpt{!ls}{ls -l ~/foobar}
+\cmd{$ex$!*}{previous command without the first word}
+\cmdOpt{mv !*}{mv foo}
+\cmd{vim !{{\rm\char94}\kern-1pt}}{vim foo}
+\cmd{!n}{Refers to the {\bf n}-th command line}
+\cmd{!-n}{Refers to the current command line minus {\bf n}}
+\cmd{!string}{Refers to the most recent command starting with {\bf string}}
+\cmd{!?string?}{Refers to the most recent command containing {\bf string} (the ending ? is optional)}
+\cmdL{\^{}string1\^{}string2\^{}}{Quick substitution. Repeats the last command, replacing {\bf string1} with {\bf string2}}
+\cmd{!\#}{Refers to the entire command line typed so far}
+\cmd{0}{The zeroth (first) word in a line (usually command name)}
+\cmd{n}{The {\bf n}-th word in a line}
+\cmd{\^{}}{The first argument (the second word) in a line}
+\cmd{\$}{The last argument in a line}
+\cmd{\%}{The word matched by the most recent ?string? search}
+\cmd{x-y}{A range of words from {\bf x} to {\bf y} ({\bf -y} is synonymous with {\bf 0-y})}
+\cmd{*}{All word but the zeroth}
+\cmd{x*}{Synonymous with {\bf x-\$}}
+\cmd{x-}{The words from {\bf x} to the second to last word}
+\cmd{h}{Removes a trailing pathname component, leaving the head}
+\cmd{t}{Removes all leading pathname components, leaving the tail}
+\cmd{r}{Removes a trailing suffix of the form .xxx, leaving the basename}
+\cmd{e}{Removes all but the trailing suffix}
+\cmd{p}{Prints the resulting command but does not execute it}
+\cmd{q}{Quotes the substituted words, escaping further substitutions}
+\cmd{x}{Quotes the substituted words, breaking them into words at blanks and newlines}
+\cmd{s/old/new/}{Substitutes {\bf new} for {\bf old}}
+\cmd{\&}{Repeats the previous substitution}
+\cmd{g}{Causes {\bf s/old/new/} or {\bf \&} to be applied over the entire event line}
+
+% \large{\bf Shell Variable} & \large{\bf Description}
+\subsection{Variables}
+\cmd{HISTFILE}{Controls where the history file gets saved. Set to {\bf/dev/null} not to keep history (Default: $\sim$/.bash\_history)}
+\cmd{HISTFILESIZE}{Controls how many history commands to keep in {\bf HISTFILE} (Default: 500)}
+\cmd{HISTSIZE}{Controls how many history commands to keep in the history list of current session (Default: 500)}
+\cmd{HISTIGNORE}{Controls which commands to ignore and not save to the history list. The variable takes a list of colon separated patterns. Pattern {\bf \&} matches the previous history command}
+
+% \large{\bf shopt option} & \large{\bf Description}
+\subsection{Shopt Option}
+shopt options can be set by a \tt{shopt -s option} and can be unset by a \tt{shopt -u option} shell command.\\
+\cmd{histappend}{Setting the variable appends current session history to {\bf HISTFILE}. Unsetting overwrites the file each time}
+\cmd{histreedit}{If set, puts a failed history substitution back on the command line for re-editing}
+\cmd{histverify}{If set, puts the command to be executed after a substitution on command line as if you had typed it}
+% A cheat sheet by {\bf Peteris Krumins} (peter@catonmat.net), 2008.
+
+% \large{\bf Shortcut} & \large{\bf Description}
+
+
+%% Footer
+\copyrightnotice
+
+% Ending
+\supereject
+\if L\lr \else\null\vfill\eject\fi
+\if L\lr \else\null\vfill\eject\fi
+\bye
+
+% EOF%}}}

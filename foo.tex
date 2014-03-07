@@ -1,0 +1,56 @@
+\large\textbf{Shortcut} & \large\textbf{Description} \\
+\cmd{CTRL-p}{Fetch the previous command from the history list} \\
+\cmd{CTRL-n}{Fetch the next command from the history list} \\
+\cmd{CTRL-r}{Search history backward (incremental search)} \\
+\cmd{CTRL-s}{Search history forward (incremental search)} \\
+\cmd{Meta-p}{Search backward using non-incremental search} \\
+\cmd{Meta-n}{Search forward using non-incremental search} \\
+\cmd{Meta-\textless}{Move to the first line in the history} \\
+\cmd{Meta-\textgreater}{Move to the end of the history list} \\
+\cmd{k}{Fetch the previous command from the history list} \\
+\cmd{j}{Fetch the next command from the history list} \\
+\cmd{/\textit{string}} or \textbf{CTRL-r}{Search history backward for a command matching \textit{string}} \\
+\cmd{?\textit{string}} or \textbf{CTRL-s}{Search history forward for a command matching \textit{string}} \\
+\cmd{n}{Repeat search in the same direction as previous} \\
+\cmd{N}{Repeat search in the opposite direction as previous} \\
+\cmd{G}{Move to the N-th history line (for example, \textbf{15G})} \\
+\large\textbf{Shell Variable} & \large\textbf{Description} \\
+\cmd{HISTFILE}{Controls where the history file gets saved. Set to \textbf{/dev/null} not to keep history.\newline Default: $\sim$/.bash\_history} \\
+\cmd{HISTFILESIZE}{Controls how many history commands to keep in \textbf{HISTFILE}.\newline Default: 500} \\
+\cmd{HISTSIZE}{Controls how many history commands to keep in the history list of current session.\newline Default: 500} \\
+\cmd{HISTIGNORE}{Controls which commands to ignore and not save to the history list. The variable takes a list of colon separated patterns. Pattern \textbf{\&} matches the previous history command} \\
+\large\textbf{shopt option} & \large\textbf{Description} \\
+\cmd{histappend}{Setting the variable appends current session history to \textbf{HISTFILE}. Unsetting overwrites the file each time} \\
+\cmd{histreedit}{If set, puts a failed history substitution back on the command line for re-editing} \\
+\cmd{histverify}{If set, puts the command to be executed after a substitution on command line as if you had typed it} \\
+\textbf{shopt} options can be set by a \texttt{shopt -s option} and can be unset by a \texttt{shopt -u option} shell command.
+A cheat sheet by \textbf{Peteris Krumins} (peter@catonmat.net), 2008.
+\large\textbf{Shortcut} & \large\textbf{Description} \\
+\cmd{!}{Starts a history substitution} \\
+\cmd{!!}{Refers to the last command} \\
+\cmd{!n}{Refers to the \textbf{n}-th command line} \\
+\cmd{!-n}{Refers to the current command line minus \textbf{n}} \\
+\cmd{!string}{Refers to the most recent command starting with \textbf{string}} \\
+\cmd{!?string?}{Refers to the most recent command containing \textbf{string} (the ending ? is optional)} \\
+\cmd{\^{}string1\^{}string2\^{}}{Quick substitution. Repeats the last command, replacing \textbf{string1} with \textbf{string2}} \\
+\cmd{!\#}{Refers to the entire command line typed so far} \\
+\cmd{0}{The zeroth (first) word in a line (usually command name)} \\
+\cmd{n}{The \textbf{n}-th word in a line} \\
+\cmd{\^{}}{The first argument (the second word) in a line} \\
+\cmd{\$}{The last argument in a line} \\
+\cmd{\%}{The word matched by the most recent ?string? search} \\
+\cmd{x-y}{A range of words from \textbf{x} to \textbf{y} (\textbf{-y} is synonymous with \textbf{0-y})} \\
+\cmd{*}{All word but the zeroth} \\
+\cmd{x*}{Synonymous with \textbf{x-\$}} \\
+\cmd{x-}{The words from \textbf{x} to the second to last word} \\
+\cmd{h}{Removes a trailing pathname component, leaving the head} \\
+\cmd{t}{Removes all leading pathname components, leaving the tail} \\
+\cmd{r}{Removes a trailing suffix of the form .xxx, leaving the basename} \\
+\cmd{e}{Removes all but the trailing suffix} \\
+\cmd{p}{Prints the resulting command but does not execute it} \\
+\cmd{q}{Quotes the substituted words, escaping further substitutions} \\
+\cmd{x}{Quotes the substituted words, breaking them into words at blanks and newlines} \\
+\cmd{s/old/new/}{Substitutes \textbf{new} for \textbf{old}} \\
+\cmd{\&}{Repeats the previous substitution} \\
+\cmd{g}{Causes \textbf{s/old/new/} or \textbf{\&} to be applied over the entire event line} \\
+A cheat sheet by \textbf{Peteris Krumins} (peter@catonmat.net), 2008.
