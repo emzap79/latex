@@ -45,7 +45,7 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 \font\tinyit=cmmi5
 
 \def\title#1{\hfil{\bf #1}\hfil\par\vskip 2pt\hrule}
-\def\section#1{\vskip 0.7cm {\it{\bf#1}\/}\par\vskip 1pt}
+\def\section#1#2{\vskip 0.7cm {\bf#1}\vskip 1pt#2\vskip 5pt}
 \def\subsection#1#2{\vskip 0.7cm {#1\/}\par\vskip 1pt\hrule\vskip 1pt#2\vskip 5pt}
 \def\subsubsection#1{\vskip 0.7cm \hskip 1em {- #1\/}\par\vskip 1pt\vskip 1pt}
 
@@ -249,7 +249,24 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 
 \shortcopyrightnotice
 %}}}
-% \section{History}%{{{
+\section{Basic Operations}{}%{{{
+\cmd{cd $path$}{change directory}
+\cmdOper{..}{Move one folder up}
+\cmdOper{-}{Change to last visited directory}
+\cmdOper{\key{None}}{Change to homedir ($\sim$/)}
+\cmd{mkdir $fold$}{create new folder in current $path$}
+%}}}
+\section{Movements}{For \key{esc} you can use whether \key{esc} or \key{alt}-key}%{{{
+\cmd{\ctrl a\ \ctrl e}{jump to beginning/end of the line}
+\cmd{\key{esc-f}\ \key{esc-b}}{jump one word forward/backward}
+\cmd{\key{esc-d}\ \key{esc-$\leftarrow$}}{cut one word forward/backward}
+\cmd{\ctrl w}{cut text backward until space}
+\cmd{\ctrl u\ \ctrl k}{cut from current position to the beginning/end of line}
+\cmd{\ctrl y}{paste most recently cut out text}
+\cmd{\ctrl c}{cancel current command}
+\cmd{\ctrl \#}{prepend hashtag on command, then jump to next line (... and reedit later)}
+%}}}
+\section{History}{You can clear your entire history with {\tt history -c}.}%{{{
 \subsection{Shortcuts}{}
 \cmd{\ctrl p}{Fetch the previous command from the history list}
 % \cmd{\ctrl n}{Fetch the next command from the history list}
@@ -258,10 +275,10 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 % \cmd{\ctrl r}{Search history backward for a command matching \it{string}}
 % \cmd{\ctrl s}{Search history forward (incremental search)}
 % \cmd{\ctrl s}{Search history forward for a command matching \it{string}}
-% \cmd{Meta-p}{Search backward using non-incremental search}
-% \cmd{Meta-n}{Search forward using non-incremental search}
-% \cmd{Meta-$<$}{Move to the first line in the history}
-% \cmd{Meta-$>$}{Move to the end of the history list}
+\cmd{\key{esc-p}}{Search backward using non-incremental search}
+\cmd{\key{esc-n}}{Search forward using non-incremental search}
+\cmd{\key{esc-$<$}}{Move to the first line in the history}
+\cmd{\key{esc-$>$}}{Move to the end of the history list (current entry)}
 % \cmd{k}{Fetch the previous command from the history list}
 % \cmd{j}{Fetch the next command from the history list}
 % \cmd{n}{Repeat search in the same direction as previous}
@@ -269,20 +286,20 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 % \cmd{G}{Move to the N-th history line}
 % \cmdExample{15G}{move to $15$th line}
 %}}}
-\subsection{History-Commands}{example commmand is: \tt{echo foo bar}}%{{{
+\subsection{History-Commands}{example commmand is: {\tt echo foo bar}}%{{{
 \cmd{!!}{runs previous executed command (also known as `bang bang')}
 \cmdExample{sudo\ !!}{sudo echo foo}
 \cmd{!$n$\ !-$n$}{executes command $n$/$n$th last command}
 \cmd{!$c$\ !?$c$?}{runs last executed command, starting with/containing string or character $c$ (ending ? is optional)}
 \cmdExample{!echo}{echo foo bar}
 \cmdExample{!? sudo}{sudo echo foo}
-\cmd{!:$d$}{executes first/last/$n$th/all arguments $arg$ of prev command (for meaning of designators ($d$) see below!)}
-\cmdExample{vim !sudo:*}{vim echo}
+\cmd{!:$d$}{executes first/last/$n$th/all arguments $arg$ of prev command (for meaning of designators $d$  see below!)}
+\cmdExample{vim !sudo:*}{vim echo foo}
 \cmd{!\#}{Refers to the entire command line typed so far}
 %}}}
 \subsection{Substitutions \& Replacements}{}%{{{
 \cmd{\^{}$c$1\^{}$c$2\^{}}{Quick substitution. Repeats the last command, replacing $c$1 with $c$2}
-\cmdL{$mod$s/old/new/}{Substitutes new for old (for meaning of modifiers ($mod$) see below)}
+\cmdL{$mod$s/old/new/}{Substitutes new for old (for meaning of modifiers $mod$ see below)}
 %}}}
 \subsubsection{Designators}%{{{
 \cmdOper{0}{The zeroth (first) word in a line (usually command name)}
