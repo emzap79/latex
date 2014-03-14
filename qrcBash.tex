@@ -9,7 +9,7 @@
 \def\versionnumber{1.0}  % Version of this reference card
 \def\key#1{$\langle${\rm{\it#1\/}}$\rangle$}
 \def\year{2014}
-\def\month{Sep}
+\def\month{Mar}
 \def\version{v\versionnumber\ \month\ \year}
 
 \def\shortcopyrightnotice{\smallskip
@@ -251,12 +251,12 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 %}}}
 \section{Basic Operations}{}%{{{
 \cmd{cd $path$}{change directory}
-\cmdOper{..}{Move one folder up}
-\cmdOper{-}{Change to last visited directory}
-\cmdOper{\key{None}}{Change to homedir ($\sim$/)}
+\cmdOper{..}{move one folder up}
+\cmdOper{-}{change to last visited directory}
+\cmdOper{\key{None}}{change to homedir ($\sim$/)}
 \cmd{mkdir $fold$}{create new folder in current $path$}
 %}}}
-\section{Movements}{For \key{esc} you can use whether \key{esc} or \key{alt}-key}%{{{
+\section{Movements}{for \key{esc} you can use whether \key{esc} or \key{alt}-key}%{{{
 \cmd{\ctrl a\ \ctrl e}{jump to beginning/end of the line}
 \cmdL{\key{esc f}\ /\ \key{esc b}}{jump one word forward/backward}
 \cmd{\ctrl c}{cancel current command}
@@ -266,80 +266,80 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 \cmd{\ctrl u\ /\ \ctrl k}{cut from current position to the beginning/end of line}
 \cmd{\ctrl \#}{prepend hashtag on command, then jump to next line (... and reedit later)}
 %}}}
-\section{History}{You can clear your entire history with {\tt history -c}.}%{{{
+\section{History}{clearing your entire history event line: {\tt history -c}}%{{{
 \subsection{Shortcuts}{}
-\cmd{\ctrl p}{Fetch the previous command from the history list}
-% \cmd{\ctrl n}{Fetch the next command from the history list}
-\cmd{\ctrl r}{Search history backward (incremental search)}
+\cmd{\ctrl p}{fetch the previous command from the history list}
+% \cmd{\ctrl n}{fetch the next command from the history list}
+\cmd{\ctrl r}{search history backward (incremental search)}
 \cmd{\key{esc -\ }}{running last executed command}
-% \cmd{\ctrl r}{Search history backward for a command matching \it{string}}
-% \cmd{\ctrl s}{Search history forward (incremental search)}
-% \cmd{\ctrl s}{Search history forward for a command matching \it{string}}
-\cmd{\key{esc p}}{Search backward using non-incremental search}
-\cmd{\key{esc n}}{Search forward using non-incremental search}
-\cmd{\key{esc $<$}}{Move to the first line in the history}
-\cmd{\key{esc $>$}}{Move to the end of the history list (current entry)}
-% \cmd{k}{Fetch the previous command from the history list}
-% \cmd{j}{Fetch the next command from the history list}
-% \cmd{n}{Repeat search in the same direction as previous}
-% \cmd{N}{Repeat search in the opposite direction as previous}
-% \cmd{G}{Move to the N-th history line}
+% \cmd{\ctrl r}{search history backward for a command matching \it{string}}
+% \cmd{\ctrl s}{search history forward (incremental search)}
+% \cmd{\ctrl s}{search history forward for a command matching \it{string}}
+\cmd{\key{esc p}}{search backward using non-incremental search}
+\cmd{\key{esc n}}{search forward using non-incremental search}
+\cmd{\key{esc $<$}}{move to the first line in the history}
+\cmd{\key{esc $>$}}{move to the end of the history list (current entry)}
+% \cmd{k}{fetch the previous command from the history list}
+% \cmd{j}{fetch the next command from the history list}
+% \cmd{n}{repeat search in the same direction as previous}
+% \cmd{N}{repeat search in the opposite direction as previous}
+% \cmd{G}{move to the N-th history line}
 % \cmdExample{15G}{move to $15$th line}
 %}}}
 \subsection{History-Commands}{example commmand is: {\tt echo foo bar}}%{{{
 \cmd{!!}{runs previous executed command (also known as `bang bang')}
 \cmdExample{sudo\ !!}{sudo echo foo}
-\cmd{!\$ / \key{esc \.\ }}{repeats last $arg$ of prev command}
+\cmd{!\$ / \key{esc .\ }}{repeats last $arg$ of prev command}
 \cmd{!$n$\ / !-$n$}{executes command $n$/$n$th last command}
-\cmd{!$c$\ / !?$c$?}{runs last executed command, starting with/containing string or character $c$ (ending ? is optional)}
+\cmd{!$str$\ / !?$str$?}{runs last executed command, starting with/containing string or character $str$ (ending ? is optional)}
 \cmdExample{!echo}{echo foo bar}
 \cmdExample{!? sudo}{sudo echo foo}
-\cmd{!:$d$}{executes first/last/$n$th/all arguments $arg$ of prev command (for meaning of designators $d$  see below!)}
+\cmd{!$n$:$d$}{executes first/last/specific/all $arg$'s of command $n$ (refers to prev command, in case $n$ is not given) $\rightarrow$ for meaning of designators $d$, see below!}
 \cmdExample{vim !sudo:*}{vim echo foo}
-\cmd{!\#}{Refers to the entire command line typed so far}
+\cmd{!\#}{refers to the entire command line typed so far}
 \subsubsection{Designators}%{{{
-\cmdOper{0}{The zeroth (first) word in a line (usually command name)}
-\cmdOper{n}{The $n$th word in a line}
-\cmdOper{\^{}}{The first $arg$ (the second word) in a line}
-\cmdOper{$\$$}{The last argument $arg$ in a line}
-\cmdOper{\%}{The word matched by the most recent !?$c$? search}
-\cmdOper{$m$-$n$}{A range of words from $m$ to $n$ (-$n$ is synonymous with 0-$n$)}
-\cmdOper{*}{All $arg$'s}
-\cmdOper{$m$*}{Synonymous with $m$-\$}
+\cmdOper{0}{the zeroth (first) word in a line (usually command name)}
+\cmdOper{n}{the $n$th word in a line}
+\cmdOper{\^{}}{the first $arg$ (the second word) in a line}
+\cmdOper{$\$$}{the last argument $arg$ in a line}
+\cmdOper{\%}{the word $str$ matched by the most recent !?$str$? search}
+\cmdOper{$m$-$n$}{a range of words from $m$ to $n$ (-$n$ is synonymous with 0-$n$)}
+\cmdOper{*}{all $arg$'s}
+\cmdOper{$m$*}{synonymous with $m$-\$}
 \cmdOper{$m$-}{from $arg$ $m$ to end}
 %}}}
 %}}}
 \subsection{Substitutions \& Replacements}{}%{{{
-\cmd{\^{}$c$1\^{}$c$2\^{}}{Quick substitution. Repeats the last command, replacing $c$1 with $c$2}
-\cmdL{$mod$s/old/new/}{Substitutes new for old (for meaning of modifiers $mod$ see below)}
+\cmd{\^{}$str_1$\^{}$str_2$}{quick substitution. Repeats the last command, replacing $str_1$ with $str_2$}
+\cmdL{$mod\,$s/old/new/}{substitutes new for old (for meaning of modifiers $mod$ see below)}
 %}}}
 \subsubsection{Modifiers}%{{{
-\cmdOper{h}{Removes a trailing pathname component, leaving the head}
-\cmdOper{t}{Removes all leading pathname components, leaving the tail (filename in path)}
-\cmdOper{r}{Removes a trailing suffix of the form .xxx, leaving the basename}
-\cmdOper{e}{Removes all but the trailing suffix}
-\cmdOper{p}{Prints the resulting command but does not execute it}
-\cmdOper{q}{Quotes the substituted words, escaping further substitutions}
-\cmdOper{m}{Quotes the substituted words, breaking them into words at blanks and newlines}
-\cmdOper{\&}{Repeats the previous substitution}
-\cmdOper{g}{Causes s/old/new/ or \& to be applied over the entire event line}
-\cmdOper{G}{Apply the following `s' modifier once to each word in the event line.}
+\cmdOper{h}{removes a trailing pathname component, leaving the head}
+\cmdOper{t}{removes all leading pathname components, leaving the tail (filename in path)}
+\cmdOper{r}{removes a trailing suffix of the form .xxx, leaving the basename}
+\cmdOper{e}{removes all but the trailing suffix}
+\cmdOper{p}{prints the resulting command but does not execute it}
+\cmdOper{q}{quotes the substituted words, escaping further substitutions}
+\cmdOper{m}{quotes the substituted words, breaking them into words at blanks and newlines}
+\cmdOper{\&}{repeats the previous substitution}
+\cmdOper{g}{causes s/old/new/ or \& to be applied over the entire event line}
+\cmdOper{G}{apply the following `s' modifier just once to each word in the event line.}
 %}}}
 \subsection{Variables}{append {\tt export <setting>=<value>} to your$\,\sim$/.bashrc}%{{{
-\cmd{HISTFILE}{If set to /dev/null history file is rejected (Default:$\,\sim$/.bash\_history)}
-\cmdL{HISTFILESIZE}{Controls how many history commands to keep in HISTFILE (Default: 500)}
-\cmd{HISTSIZE}{Controls how many history commands to keep in the history list of current session (Default: 500)}
-\cmd{HISTCONTROL}{Modality of how to save commands on the history list.}
-\cmdOpt{ignorespace}{If the list of values includes ignorespace, lines which begin with a space character are not saved in the history list.}
-\cmdOpt{ignoredups}{A value of ignoredups causes lines matching the previous history  entry  to  not  be saved.}
-\cmdOpt{ignoreboth}{A value of ignoreboth is shorthand for ignorespace and ignoredups.}
-\cmdOpt{erasedups}{A value of erasedups causes all previous lines matching the current line to be removed from the history list before that line is saved.}
-\cmd{HISTIGNORE}{Controls which commands to ignore and not save to the history list.}
+\cmd{HISTFILE}{if set to /dev/null history file is rejected (Default:$\,\sim$/.bash\_history)}
+\cmdL{HISTFILESIZE}{controls how many history commands to keep in HISTFILE (Default: 500)}
+\cmd{HISTSIZE}{controls how many history commands to keep in the history list of current session (Default: 500)}
+\cmdL{HISTCONTROL}{modality of how to save commands on the history list.}
+\cmdOpt{ignorespace}{if the list of values includes ignorespace, lines which begin with a space character are not saved in the history list.}
+\cmdOpt{ignoredups}{a value of ignoredups causes lines matching the previous history  entry  to  not  be saved.}
+\cmdOpt{ignoreboth}{a value of ignoreboth is shorthand for ignorespace and ignoredups.}
+\cmdOpt{erasedups}{a value of erasedups causes all previous lines matching the current line to be removed from the history list before that line is saved.}
+\cmd{HISTIGNORE}{controls which commands to ignore and not save to the history list.}
 %}}}
 \subsection{Shopt Option}{shopt options can be set by a \tt{shopt -s option} and can be unset by a \tt{shopt -u option} shell command.}
-\cmd{histappend}{Setting the variable appends current session history to HISTFILE. Unsetting overwrites the file each time}
-\cmd{histreedit}{If set, puts a failed history substitution back on the command line for re-editing}
-\cmd{histverify}{If set, puts the command to be executed after a substitution on command line as if you had typed it}
+\cmd{histappend}{setting the variable appends current session history to HISTFILE. Unsetting overwrites the file each time}
+\cmd{histreedit}{if set, puts a failed history substitution back on the command line for re-editing}
+\cmd{histverify}{if set, puts the command to be executed after a substitution on command line as if you had typed it}
 
 
 %% Footer
