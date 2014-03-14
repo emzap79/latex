@@ -258,12 +258,12 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 %}}}
 \section{Movements}{For \key{esc} you can use whether \key{esc} or \key{alt}-key}%{{{
 \cmd{\ctrl a\ \ctrl e}{jump to beginning/end of the line}
-\cmd{\key{esc-f}\ \key{esc-b}}{jump one word forward/backward}
-\cmd{\key{esc-d}\ \key{esc-$\leftarrow$}}{cut one word forward/backward}
-\cmd{\ctrl w}{cut text backward until space}
-\cmd{\ctrl u\ \ctrl k}{cut from current position to the beginning/end of line}
-\cmd{\ctrl y}{paste most recently cut out text}
+\cmdL{\key{esc f}\ /\ \key{esc b}}{jump one word forward/backward}
 \cmd{\ctrl c}{cancel current command}
+\cmd{\ctrl y}{paste most recently cut out text}
+\cmdL{\key{esc d}\ /\ \key{esc $\leftarrow$}}{cut one word forward/backward}
+\cmd{\ctrl w}{cut text backward until space}
+\cmd{\ctrl u\ /\ \ctrl k}{cut from current position to the beginning/end of line}
 \cmd{\ctrl \#}{prepend hashtag on command, then jump to next line (... and reedit later)}
 %}}}
 \section{History}{You can clear your entire history with {\tt history -c}.}%{{{
@@ -271,14 +271,14 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 \cmd{\ctrl p}{Fetch the previous command from the history list}
 % \cmd{\ctrl n}{Fetch the next command from the history list}
 \cmd{\ctrl r}{Search history backward (incremental search)}
-\cmd{\key{esc}\ .\ \ }{print last argument of prev command}
+\cmd{\key{esc -\ }}{running last executed command}
 % \cmd{\ctrl r}{Search history backward for a command matching \it{string}}
 % \cmd{\ctrl s}{Search history forward (incremental search)}
 % \cmd{\ctrl s}{Search history forward for a command matching \it{string}}
-\cmd{\key{esc-p}}{Search backward using non-incremental search}
-\cmd{\key{esc-n}}{Search forward using non-incremental search}
-\cmd{\key{esc-$<$}}{Move to the first line in the history}
-\cmd{\key{esc-$>$}}{Move to the end of the history list (current entry)}
+\cmd{\key{esc p}}{Search backward using non-incremental search}
+\cmd{\key{esc n}}{Search forward using non-incremental search}
+\cmd{\key{esc $<$}}{Move to the first line in the history}
+\cmd{\key{esc $>$}}{Move to the end of the history list (current entry)}
 % \cmd{k}{Fetch the previous command from the history list}
 % \cmd{j}{Fetch the next command from the history list}
 % \cmd{n}{Repeat search in the same direction as previous}
@@ -289,18 +289,14 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 \subsection{History-Commands}{example commmand is: {\tt echo foo bar}}%{{{
 \cmd{!!}{runs previous executed command (also known as `bang bang')}
 \cmdExample{sudo\ !!}{sudo echo foo}
-\cmd{!$n$\ !-$n$}{executes command $n$/$n$th last command}
-\cmd{!$c$\ !?$c$?}{runs last executed command, starting with/containing string or character $c$ (ending ? is optional)}
+\cmd{!\$ / \key{esc \.\ }}{repeats last $arg$ of prev command}
+\cmd{!$n$\ / !-$n$}{executes command $n$/$n$th last command}
+\cmd{!$c$\ / !?$c$?}{runs last executed command, starting with/containing string or character $c$ (ending ? is optional)}
 \cmdExample{!echo}{echo foo bar}
 \cmdExample{!? sudo}{sudo echo foo}
 \cmd{!:$d$}{executes first/last/$n$th/all arguments $arg$ of prev command (for meaning of designators $d$  see below!)}
 \cmdExample{vim !sudo:*}{vim echo foo}
 \cmd{!\#}{Refers to the entire command line typed so far}
-%}}}
-\subsection{Substitutions \& Replacements}{}%{{{
-\cmd{\^{}$c$1\^{}$c$2\^{}}{Quick substitution. Repeats the last command, replacing $c$1 with $c$2}
-\cmdL{$mod$s/old/new/}{Substitutes new for old (for meaning of modifiers $mod$ see below)}
-%}}}
 \subsubsection{Designators}%{{{
 \cmdOper{0}{The zeroth (first) word in a line (usually command name)}
 \cmdOper{n}{The $n$th word in a line}
@@ -311,6 +307,11 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 \cmdOper{*}{All $arg$'s}
 \cmdOper{$m$*}{Synonymous with $m$-\$}
 \cmdOper{$m$-}{from $arg$ $m$ to end}
+%}}}
+%}}}
+\subsection{Substitutions \& Replacements}{}%{{{
+\cmd{\^{}$c$1\^{}$c$2\^{}}{Quick substitution. Repeats the last command, replacing $c$1 with $c$2}
+\cmdL{$mod$s/old/new/}{Substitutes new for old (for meaning of modifiers $mod$ see below)}
 %}}}
 \subsubsection{Modifiers}%{{{
 \cmdOper{h}{Removes a trailing pathname component, leaving the head}
