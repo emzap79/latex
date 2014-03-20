@@ -105,19 +105,20 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
   \noindent
   \hbox to \hsize {% This comment is needed to remove space at start of line
     \vtop{
-      \hbox to 2.4cm {
+      \hbox to 3.0cm {
         \noindent{#1}\dotfill
       }
       %\hrule
     }% This comment is needed to remove space
     \hfil	% absorb extra space b/w columns
     \vtop{
-      \hsize=5.90cm
+      \hsize=5.20cm
       \hbox{\hfuzz = 25pt \vtop{%The \hfuzz setting specifies the maximum amount
               %of box-overflow before a warning message will be issued.
       % Uncomment line below to right-align description
       %\leftskip=0cm plus 150fil
       {#2}
+      \hfil
       }}
       %\hrule
     }
@@ -182,28 +183,33 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
   \par
   \vskip 1ex
 }%}}}
-% A option command%{{{
+% An option command%{{{
 \def\cmdOpt#1#2{
   \noindent
   \hbox to \hsize {% This comment is needed to remove space at start of line
     \vtop{
       % \leftskip=0cm plus 150fil
-        \hbox to 1.0cm {
+        \hbox to 3.0cm {
       % \hfuzz = 5pt
-      \hskip 10pt
-      % \hfil
-      % \hsize=3.9cm
-      \noindent{\it#1}
+      % \hskip 10pt
+      % \hsize=2.9cm
+      \hfil
+      \hfil
+      \noindent{#1}
+      \hfil
       }
       %\hrule
     }% This comment is needed to remove space
     \hfil	% absorb extra space b/w columns
     \vtop{
-      \hsize=5.90cm
-      \hbox{\hfuzz = 15pt \vtop{
+      \hsize=5.00cm
+      \hbox{
+          \hfuzz = 15pt
+      % \dotfill
+          \vtop{
       % Uncomment line below to right-align description
       %\leftskip=0cm plus 150fil
-      \it{#2}
+      {#2}
       }}
       %\hrule
     }
@@ -212,18 +218,19 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
   \par
   \vskip 0.14cm
 }%}}}
-% A operator command%{{{
+% An operator command%{{{
 \def\cmdOper#1#2{
   \noindent
   \hbox to \hsize {% This comment is needed to remove space at start of line
     \vtop{
       % \leftskip=0cm plus 150fil
-        \hbox to 1.0cm {
+        \hbox to 1.9cm {
+      \hfil
       % \hfuzz = 5pt
-      \hskip 30pt
-      % \hfil
-      % \hsize=3.9cm
+      % \hskip 10pt
+      \hsize=5em
       \noindent{#1}
+      \hfil
       }
       %\hrule
     }% This comment is needed to remove space
@@ -233,7 +240,7 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
       \hbox{\hfuzz = 15pt \vtop{
       % Uncomment line below to right-align description
       %\leftskip=0cm plus 150fil
-      #2
+      {#2}
       }}
       %\hrule
     }
@@ -251,17 +258,17 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 %}}}
 \section{Basic Operations}{}%{{{
 \cmd{cd $path$}{change directory}
-\cmdOper{..}{move one folder up}
-\cmdOper{-}{change to last visited directory}
-\cmdOper{\key{None}}{change to homedir ($\sim$/)}
+\cmdOper{\ ..}{move one folder up}
+\cmdOper{--}{change to last visited directory}
+\cmdOper{\key{None}}{change to homedir ($\sim$)}
 \cmd{mkdir $fold$}{create new folder in current $path$}
 %}}}
 \section{Movements}{for \key{esc} you can use whether \key{esc} or \key{alt}-key}%{{{
 \cmd{\ctrl a\ \ctrl e}{jump to beginning/end of the line}
-\cmdL{\key{esc f}\ /\ \key{esc b}}{jump one word forward/backward}
+\cmd{\key{esc f}\ /\ \key{esc b}}{jump one word forward/backward}
 \cmd{\ctrl c}{cancel current command}
 \cmd{\ctrl y}{paste most recently cut out text}
-\cmdL{\key{esc d}\ /\ \key{esc $\leftarrow$}}{cut one word forward/backward}
+\cmd{\key{esc d}\ /\ \key{esc $\leftarrow$}}{cut one word forward/backward}
 \cmd{\ctrl w}{cut text backward until space}
 \cmd{\ctrl u\ /\ \ctrl k}{cut from current position to the beginning/end of line}
 \cmd{\ctrl \#}{prepend hashtag on command, then jump to next line (... and reedit later)}
@@ -275,7 +282,7 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 % \cmd{\ctrl r}{search history backward for a command matching \it{string}}
 % \cmd{\ctrl s}{search history forward (incremental search)}
 % \cmd{\ctrl s}{search history forward for a command matching \it{string}}
-\cmd{\key{esc p}}{search backward using non-incremental search}
+\cmd{\key{esc p}}{search backward using non-incre\-mental search}
 \cmd{\key{esc n}}{search forward using non-incremental search}
 \cmd{\key{esc $<$}}{move to the first line in the history}
 \cmd{\key{esc $>$}}{move to the end of the history list (current entry)}
@@ -288,7 +295,7 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 %}}}
 \subsection{History-Commands}{example commmand is: {\tt echo foo bar}}%{{{
 \cmd{!!}{runs previous executed command (also known as `bang bang')}
-\cmdExample{sudo\ !!}{sudo echo foo}
+\cmdExample{sudo\ !!}{sudo echo foo bar}
 \cmd{!\$ / \key{esc .\ }}{repeats last $arg$ of prev command}
 \cmd{!$n$\ / !-$n$}{executes command $n$/$n$th last command}
 \cmd{!$str$\ / !?$str$?}{runs last executed command, starting with/containing string or character $str$ (ending ? is optional)}
@@ -306,7 +313,7 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 \cmdOper{$m$-$n$}{a range of words from $m$ to $n$ (-$n$ is synonymous with 0-$n$)}
 \cmdOper{*}{all $arg$'s}
 \cmdOper{$m$*}{synonymous with $m$-\$}
-\cmdOper{$m$-}{from $arg$ $m$ to end}
+\cmdOper{$m$-}{from $arg$ $m$ to end, ommitting last word}
 %}}}
 %}}}
 \subsection{Substitutions \& Replacements}{}%{{{
@@ -334,9 +341,9 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 \cmdOpt{ignoredups}{a value of ignoredups causes lines matching the previous history  entry  to  not  be saved.}
 \cmdOpt{ignoreboth}{a value of ignoreboth is shorthand for ignorespace and ignoredups.}
 \cmdOpt{erasedups}{a value of erasedups causes all previous lines matching the current line to be removed from the history list before that line is saved.}
-\cmd{HISTIGNORE}{controls which commands to ignore and not save to the history list.}
+\cmdL{HISTIGNORE}{controls which commands to ignore and not save to the history list.}
 %}}}
-\subsection{Shopt Option}{shopt options can be set by a \tt{shopt -s option} and can be unset by a \tt{shopt -u option} shell command.}
+\subsection{Shopt Option}{shopt options can be set by a {\tt shopt -s option} and can be unset by a {\tt shopt -u option} shell com\-mand.}
 \cmd{histappend}{setting the variable appends current session history to HISTFILE. Unsetting overwrites the file each time}
 \cmd{histreedit}{if set, puts a failed history substitution back on the command line for re-editing}
 \cmd{histverify}{if set, puts the command to be executed after a substitution on command line as if you had typed it}
