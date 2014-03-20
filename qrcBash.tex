@@ -300,9 +300,9 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 \cmd{!$n$\ / !-$n$}{executes command $n$/$n$th last command}
 \cmd{!$str$\ / !?$str$?}{runs last executed command, starting with/containing string or character $str$ (ending ? is optional)}
 \cmdExample{!echo}{echo foo bar}
-\cmdExample{!? sudo}{sudo echo foo}
+\cmdExample{!? sudo}{sudo echo foo bar}
 \cmd{!$n$:$d$}{executes first/last/specific/all $arg$'s of command $n$ (refers to prev command, in case $n$ is not given) $\rightarrow$ for meaning of designators $d$, see below!}
-\cmdExample{vim !sudo:*}{vim echo foo}
+\cmdExample{vim !sudo:*}{vim echo foo bar}
 \cmd{!\#}{refers to the entire command line typed so far}
 \subsubsection{Designators}%{{{
 \cmdOper{0}{the zeroth (first) word in a line (usually command name)}
@@ -317,7 +317,7 @@ This TeXfile is based on Gabriel B. Burcas git-qrc.tex
 %}}}
 %}}}
 \subsection{Substitutions \& Replacements}{}%{{{
-\cmd{\^{}$str_1$\^{}$str_2$}{quick substitution. Repeats the last command, replacing $str_1$ with $str_2$}
+\cmd{\^{}$str_1$\^{}$str_2$\^{}}{quick substitution. Repeats the last command, replacing $str_1$ with $str_2$}
 \cmdL{$mod\,$s/old/new/}{substitutes new for old (for meaning of modifiers $mod$ see below)}
 %}}}
 \subsubsection{Modifiers}%{{{
