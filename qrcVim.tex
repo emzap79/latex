@@ -140,7 +140,7 @@ Register $x$ and copy to clipboard (\tt{:let \dots @a})}
 \cmd{\ctrl D \ctrl T }{shift left, right one shift width}
 \cmd{\ctrl O$c$ }{execute $c$ in temporary command mode}
 \cmd{\ctrl X\ctrl E \ctrl X\ctrl Y }{scroll up, down}
-\cmd{\key{esc}\or \ctrl\rbracket}{abandon edition $\to$ command mode}
+\cmd{\key{esc}\or \ctrl\rbracket\or \ctrl C}{abandon edition $\to$ command mode}
 
 %\vskip 0.4cm
 \section{Search \& Substitution}
@@ -210,6 +210,7 @@ Leave out $m$ for visual mode commands \\
 \cmd{gv }{start highlighting on previous visual area}
 \cmd{aw as ap }{select a word, a sentence, a paragraph}
 \cmd{ab aB }{select a block ( ), a block {\tt\lapos} {\tt\rapos}}
+\cmd{g\ctrl G}{Count words, character lines and bytes of selection}
 
 \section{Undoing, Repeating \& Registers}
 \cmd{u U }{undo last command, restore last changed line}
@@ -361,7 +362,7 @@ Leave out $m$ for visual mode commands \\
 \cmd{zm zM }{fold more, close all folds}
 \cmd{zr zR }{fold less, open all folds}
 \cmd{zn zN zi }{fold non, fold normal, invert folding}
-\cmd{:set foldcolumn=4 } {show foldcolumn}
+\cmd{:set foldcolumn=$n$ } {show foldcolumn $n$}
 
 \section{Compiling}
 \cmd{:compiler $c$ }{set/show compiler plugins}
@@ -391,7 +392,6 @@ Leave out $m$ for visual mode commands \\
 \cmd{K }{run {\tt keywordprg} (manpage) on word under cursor}
 \cmd{\ctrl L }{redraw screen}
 \cmd{\ctrl R = 5*5}{insert 25 into text}
-\cmd{g\ctrl G}{show cursor column, line, and character position}
 \cmd{ga }{show A{\smallrm SCII} value of character under cursor}
 \cmd{gf }{open file which filename is under cursor}
 \cmd{:mks $name$ }{save session $name$}
