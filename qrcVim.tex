@@ -81,6 +81,8 @@
 \cmd{ge e }{end of word/token left, right}
 \cmd{\lapos\ \rapos }{beginning of previous, next paragraph}
 \cmd{( ) }{beginning of previous, next sentence}
+\cmd{[[\ ]]}{go to previous, next function}
+\cmd{[\lapos\ ]\rapos}{beginning, end of current block}
 \cmd{0 \^\ \$ }{beginning, first, last character of line}
 \cmd{$n$G $n$gg }{line $n$, default the last, first}
 \cmd{$n|$ }{column $n$ of current line}
@@ -97,7 +99,7 @@
 \cmd{:jumps }{print the jump list}
 \cmd{:ta \ctrl[ }{jump to tag (under cursor)}
 \cmd{\ctrl O \ctrl I }{jump to older/newer location btw. buffers}
-\cmd{$n$g; $n$g, }{go to or edit $n$ older/newer position in change list}
+\cmd{$n$g; $n$g, }{go to $n$ older/newer position in change list}
 \cmd{'. }{jump back on last edited line}
 \cmd{'' }{toggle back/forward to previous/next position}
 
@@ -124,8 +126,8 @@
 \cmd{:$r$d } {delete range $r$ lines}
 \cmd{:$r$d$x$ } {delete range $r$ lines into register $x$}
 \cmd{q$x$q}{empty register $x$}
-\cmd{:g/pattern/d $x$\\:let @+ = @a} {delete lines with pattern $c$ into
-Register $x$ and copy to clipboard (\tt{:let \dots @a})}
+\cmd{:g/pattern/d $x$\\:let @+ = @x} {delete lines with pattern $c$ into
+Register $x$ and copy to clipboard (\tt{:let \dots @x})}
 
 \section{Insert/ Command Mode}
 \cmd{\ctrl V$c$ \ctrl V$n$ }{insert char $c$ literally, decimal value $n$}
@@ -154,7 +156,7 @@ Register $x$ and copy to clipboard (\tt{:let \dots @a})}
 \cmd{:$r$s/$f$/$t$/$x$ } {substitute $f$ by $t$ in range $r$}
 \cnd{$x:$ {\tt g}---all occurrences, {\tt c}---confirm changes}
 \cmd{:$r$s $x$ } {repeat substitution with new $r$ \& $x$}
-\cmd{:$r$g/$p$/$c$ :$r$v/$p$/$c$ } {execute {\it Ex\/} $c$ on range $r$ where $p$ matches/does not match}
+\cmd{:$r$g/$p$/$c$ :$r$v/$p$/$c$ } {execute {\it Ex\/} $c$ on range $r$ where $p$ matches, not matches}
 
 \vskip -0.2cm
 \section{Misc Ex Commands (\enter)}
@@ -175,7 +177,7 @@ Register $x$ and copy to clipboard (\tt{:let \dots @a})}
 
 \vskip -0.2cm
 \section{Ex Ranges}
-\cmd{, ;\ }{separates two lines numbers, set to first line }
+\cmd{, ;\ }{separates line numbers, set to first line }
 \cmd{$n$ }{an absolute line number $n$}
 \cmd{.\thinspace\thinspace\thinspace\$ }{the current line, the last line in file}
 \cmd{\% * }{entire file, visual area}
@@ -190,8 +192,8 @@ Register $x$ and copy to clipboard (\tt{:let \dots @a})}
 Leave out $m$ for visual mode commands \\
 \cmd{gq$m$ gqgq }{format movement $m$/current paragraph}
 \cmd{:$r$ce $w$ } {center lines in range $r$ to width $w$}
-\cmd{:$r$ri $w$ } {right align lines in range $r$ to width $w$}
-\cmd{:$r$le $i$ } {left align lines in range $r$ with indent $i$}
+\cmd{:$r$ri $w$ } {rightalign lines in range $r$ to width $w$}
+\cmd{:$r$le $i$ } {left align lines in range with indent $i$}
 \cmd{!$m$$c$\enter }{filter lines of movement $m$ through command $c$}
 \cmd{$n$!!$c$\enter }{filter $n$ lines through command $c$}
 \cmd{:$r$!$c$ } {filter range $r$ lines through command $c$}
@@ -250,8 +252,9 @@ Leave out $m$ for visual mode commands \\
 \cmd{\bs u \bs l }{upper, lowercase character}
 \cmd{\bs c \bs C }{ignore, match case on next pattern}
 \cmd{\bs \%x }{match hex character}
-\cmd{\bs @= \bs @! }{\tt (?=pattern) (?!pattern)\rm}
-\cmd{\bs @$<$= \bs @$<$! }{\tt (?$<$=pattern) (?$<$!pattern)\rm}
+\cmd{\bs @= \bs @! }{\tt $char$(?=pattern) $char$(?!pattern)\rm}
+\cmd{\bs @$<$= \bs @$<$! }{\tt (?=pattern)$char$ (?!pattern)$char$\rm}
+% \cmd{\bs @$<$= \bs @$<$! }{\tt (?$<$=pattern) (?$<$!pattern)\rm}
 \cmd{\bs @$>$ }{\tt (?$>$pattern)\rm }
 \cmd{\bs\_\^{} \bs\_\$ }{start-of-line/end-of-line, anywhere in pattern}
 \cmd{\bs\_. }{any single char, including end-of-line}
@@ -268,7 +271,7 @@ Leave out $m$ for visual mode commands \\
 \vskip -0.2cm
 \section{Spell Checking}
 \cmd{:set spell spelllang=de\_20 } {activate spellcheck}
-\cmd{$]$s }{next misspelled word}
+\cmd{]s\ [s }{next, previous misspelled word}
 \cmd{zg zG }{add good word (to internal word list)}
 \cmd{zug zuG}{undo the addition of a word to the dictionary}
 \cmd{zw zW }{mark bad word (to internal word list)}
@@ -276,11 +279,11 @@ Leave out $m$ for visual mode commands \\
 
 \section{Marks, Motions, and Tags}
 \cmd{m$c$ }{mark current position with mark $c\in[a..Z]$}
+\cmd{:marks } {print the active marks list}
 \cmd{`$c$ `$C$ }{go to mark $c$ in current, $C$ in any file}
 \cmd{`$0..9$ }{go to last exit position}
 \cmd{`\/`  `\/" }{go to position before jump, at last edit}
 \cmd{`[ `] }{go to start, end of previously operated text}
-\cmd{:marks } {print the active marks list}
 \cmd{$n$\ctrl O }{go to $n^{th}$ older position in jump list}
 \cmd{$n$\ctrl I }{go to $n^{th}$ newer position in jump list}
 \cmd{\ctrl ] \ctrl T }{jump to the tag under cursor, return from tag}
@@ -289,7 +292,6 @@ Leave out $m$ for visual mode commands \\
 \cmd{:tags } {print tag list}
 
 \section{Multiple Files / Buffers (\enter)}
-\cmd{:h buffers}{get help for buffer-management}
 \cmd{:tab ball }{show buffer tablist}
 \cmd{:buffers }{show list of buffers}
 \cmd{:on } {make current window one on screen}
@@ -298,9 +300,7 @@ Leave out $m$ for visual mode commands \\
 \cmd{:bnext :bprev :bfirst :blast }{buffer movement}
 \cmd{:bd$n$ }{delete buffer $n$ (also with filename)}
 \cmd{:badd f.txt }{load file into new buffer}
-\cmd{:sb$n$ }{Split window and edit buffer $n$ from the buffer list}
-\cmd{:vertical$n$ :horizontal$c$ }{execute $c$ on vert./horiz. split}
-\cmd{:rightabove$c$ :leftbelow$c$ }{execute $c$ (eg. sb$n$) right/left above/below window}
+\cmd{:sb$n$ }{Split window and edit buffer $n$ from the bufflist}
 
 \section{Buffer Shortcuts}
 \cmd{:h ctrl-w }{complete list of all buffer commands}
@@ -332,7 +332,7 @@ Leave out $m$ for visual mode commands \\
 \cmd{$n$gt }{goto tab in position $n$ }
 
 \section{Advanced Scrolling}
-\cmd{$n$\ctrl Y \ctrl E}{Scroll window $n$ lines upwards/downwards in the buffer}
+\cmd{$n$\ctrl Y $n$\ctrl E}{Scroll window $n$ lines up-/downwards}
 \cmd{\ctrl D \ctrl U }{scroll half a page up, down}
 \cmd{\ctrl F \ctrl B }{scroll page up, down}
 \cmd{zt zz zb }{current line to top, center, bottom of win.}
@@ -375,6 +375,7 @@ Leave out $m$ for visual mode commands \\
 \cmd{:set fdm=indent } {indent-foldmethod}
 %\cmd{:,2s/\ze #/\=repeat(' ',32) }{indent comments ' #' to column 32}
 \cmd{$n\hskip -0.3em>$ $n\hskip -0.3em<$ $=$ }{indent/unindent $n$ levels, reindent}
+\cmd{$n\hskip -0.3em>>$ $n\hskip -0.3em<<$ }{indent/dedent $n$ lines}
 \cmd{G=gg}{auto (re)indent entire document}
 
 \section{Miscellaneous}
@@ -397,19 +398,22 @@ Leave out $m$ for visual mode commands \\
 \cmd{:mks $name$ }{save session $name$}
 \cmd{vim -S $name$ }{reload vim-session $name$}
 
+\section{Vim Start-Options}
+\cmd{vimdiff $f_1$ $f_2$ }{diff $file_1$ + $file_2$ using synchronized split windows}
+\cmd{vim -o/-O $f_1$ $f_2$ }{open $files$ in horiz/vert split mode}
+\cmd{vim +$n$ $file$ }{open $file$ at $n$th line (eof if $n$ omitted)}
+
 \section{Search \& Replace Modifiers}
-% section %% search_&_replace_modifiers %{{{
-\cmd{h }{Remove a trailing file name component, leaving only the head.  }
+\cmd{h }{Remove trailing components, leaving the head.  }
 \cmd{t }{Remove all leading file name components, leaving the tail. }
-\cmd{r }{Remove a trailing suffix of the form .xxx, leaving the basename. }
+\cmd{r }{Remove a trailing suffix, leaving the basename. }
 \cmd{e }{Remove all but the trailing suffix. }
 \cmd{p }{Print the new command but do not execute it. }
 \cmd{q }{Quote the substituted words, escaping further substitutions. }
 \cmd{x }{Quote the substituted words as with q, but break into words at blanks and newlines. }
 \cmd{\& }{Repeat the previous substitution. }
-\cmd{g }{Cause  changes  to  be applied over the entire event line. }
+\cmd{g }{Cause  changes  to  be applied over entire event line. }
 \cmd{G }{Apply the following `s' modifier once to each word in the event line. }
-% section %% search_&_replace_modifiers (end) % }}}
 
 \section{Most Common Digraphs}
 \cmd{:dig }{complete list of all digraphs}
@@ -420,7 +424,6 @@ Leave out $m$ for visual mode commands \\
 \cmd{?I }{?`: Inverteted Quest. Mark }
 \cmd{Eu }{Euro Currency }
 \cmd{Li }{Britain Pound Currency }
-% \cmd{00 }{∞ }
 \cmd{00 }{$\infty$ }
 \cmd{*p *P}{$\pi$ $\Pi$ }
 \cmd{14 12 34 }{1/4, 1/2, 3/4 etc.}
